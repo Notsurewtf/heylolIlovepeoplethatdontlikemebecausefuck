@@ -1,0 +1,1430 @@
+2024-09-29 22:48:58.735	17180	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-29 22:48:58.736	17180	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-29 22:48:58.736	17180	INFO	global	src/daemon/protocol.h:53	Initializing cryptonote protocol...
+2024-09-29 22:48:58.736	17180	INFO	global	src/daemon/protocol.h:58	Cryptonote protocol initialized OK
+2024-09-29 22:48:58.736	17180	INFO	global	src/daemon/core.h:64	Initializing core...
+2024-09-29 22:48:58.737	17180	INFO	global	src/cryptonote_core/cryptonote_core.cpp:523	Loading blockchain from folder F:\bitmonero\lmdb ...
+2024-09-29 22:48:58.794	17180	INFO	global	src/cryptonote_core/cryptonote_core.cpp:698	Loading checkpoints
+2024-09-29 22:48:58.794	17180	INFO	global	src/daemon/core.h:81	Core initialized OK
+2024-09-29 22:48:58.794	17180	INFO	global	src/daemon/p2p.h:64	Initializing p2p server...
+2024-09-29 22:48:58.796	17180	INFO	global	src/daemon/p2p.h:69	p2p server initialized OK
+2024-09-29 22:48:58.797	17180	INFO	global	src/daemon/rpc.h:63	Initializing core RPC server...
+2024-09-29 22:48:58.797	17180	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):18081
+2024-09-29 22:48:59.259	17180	INFO	global	src/daemon/rpc.h:69	core RPC server initialized OK on port: 18081
+2024-09-29 22:48:59.268	17180	INFO	global	src/daemon/rpc.h:74	Starting core RPC server...
+2024-09-29 22:48:59.268	[SRV_MAIN]	INFO	global	src/daemon/rpc.h:79	core RPC server started ok
+2024-09-29 22:48:59.269	[SRV_MAIN]	INFO	global	src/daemon/p2p.h:79	Starting p2p net loop...
+2024-09-29 22:49:00.284	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	
+2024-09-29 22:49:00.284	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	**********************************************************************
+2024-09-29 22:49:00.284	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	The daemon will start synchronizing with the network. This may take a long time to complete.
+2024-09-29 22:49:00.284	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	
+2024-09-29 22:49:00.284	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	You can set the level of process detailization through "set_log <level|categories>" command,
+2024-09-29 22:49:00.284	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	where <level> is between 0 (no details) and 4 (very verbose), or custom category based levels (eg, *:WARNING).
+2024-09-29 22:49:00.284	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	
+2024-09-29 22:49:00.285	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	Use the "help" command to see the list of available commands.
+2024-09-29 22:49:00.285	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	Use "help <command>" to see a command's documentation.
+2024-09-29 22:49:00.285	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	**********************************************************************
+2024-09-29 22:49:00.733	19240	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-29 22:49:00.733	19240	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-29 22:49:01.442	19240	INFO	msgwriter	src/common/scoped_message_writer.h:102	Height: 1, target: 1 (100%)
+2024-09-29 22:49:01.442	19240	INFO	msgwriter	src/common/scoped_message_writer.h:102	Downloading at 0 kB/s
+2024-09-29 22:49:01.442	19240	INFO	msgwriter	src/common/scoped_message_writer.h:102	Next needed pruning seed: 1
+2024-09-29 22:49:01.442	19240	INFO	msgwriter	src/common/scoped_message_writer.h:102	0 peers
+2024-09-29 22:49:01.442	19240	INFO	msgwriter	src/common/scoped_message_writer.h:102	Remote Host                        Peer_ID   State   Prune_Seed          Height  DL kB/s, Queued Blocks / MB
+2024-09-29 22:49:01.442	19240	INFO	msgwriter	src/common/scoped_message_writer.h:102	0 spans, 0 MB
+2024-09-29 22:49:01.442	19240	INFO	msgwriter	src/common/scoped_message_writer.h:102	[]
+2024-09-29 22:49:06.919	[P2P9]	INFO	global	src/cryptonote_protocol/cryptonote_protocol_handler.inl:409	[45.78.183.59:18080 OUT] Sync data returned a new top block candidate: 1 -> 3248408 [Your node is 3248407 blocks (10.4 years) behind] 
+2024-09-29 22:49:06.919	[P2P9]	INFO	global	src/cryptonote_protocol/cryptonote_protocol_handler.inl:409	SYNCHRONIZATION started
+2024-09-29 22:49:13.275	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 104.248.206.131 blocked.
+2024-09-29 22:49:13.275	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 104.248.231.61 blocked.
+2024-09-29 22:49:13.275	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 116.203.249.163 blocked.
+2024-09-29 22:49:13.275	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 128.199.45.242 blocked.
+2024-09-29 22:49:13.276	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.122.50.39 blocked.
+2024-09-29 22:49:13.276	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.122.61.72 blocked.
+2024-09-29 22:49:13.276	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.16.242 blocked.
+2024-09-29 22:49:13.276	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.16.244 blocked.
+2024-09-29 22:49:13.277	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.19.30 blocked.
+2024-09-29 22:49:13.277	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.24.146 blocked.
+2024-09-29 22:49:13.277	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.31.107 blocked.
+2024-09-29 22:49:13.277	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.31.128 blocked.
+2024-09-29 22:49:13.277	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.31.191 blocked.
+2024-09-29 22:49:13.278	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.31.237 blocked.
+2024-09-29 22:49:13.278	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.98.94 blocked.
+2024-09-29 22:49:13.278	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.105 blocked.
+2024-09-29 22:49:13.278	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.113 blocked.
+2024-09-29 22:49:13.278	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.114 blocked.
+2024-09-29 22:49:13.279	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.127 blocked.
+2024-09-29 22:49:13.279	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.146 blocked.
+2024-09-29 22:49:13.279	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.148 blocked.
+2024-09-29 22:49:13.279	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.158 blocked.
+2024-09-29 22:49:13.279	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.164 blocked.
+2024-09-29 22:49:13.280	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.167 blocked.
+2024-09-29 22:49:13.280	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.178 blocked.
+2024-09-29 22:49:13.280	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.184 blocked.
+2024-09-29 22:49:13.280	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.187 blocked.
+2024-09-29 22:49:13.281	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.188 blocked.
+2024-09-29 22:49:13.281	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.193 blocked.
+2024-09-29 22:49:13.281	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.198 blocked.
+2024-09-29 22:49:13.281	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.200 blocked.
+2024-09-29 22:49:13.281	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.201 blocked.
+2024-09-29 22:49:13.282	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.204 blocked.
+2024-09-29 22:49:13.282	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.208 blocked.
+2024-09-29 22:49:13.282	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.255 blocked.
+2024-09-29 22:49:13.282	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.63 blocked.
+2024-09-29 22:49:13.283	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.88 blocked.
+2024-09-29 22:49:13.283	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.95 blocked.
+2024-09-29 22:49:13.283	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.98 blocked.
+2024-09-29 22:49:13.283	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.87.18 blocked.
+2024-09-29 22:49:13.284	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.87.25 blocked.
+2024-09-29 22:49:13.284	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.191.218 blocked.
+2024-09-29 22:49:13.284	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.191.237 blocked.
+2024-09-29 22:49:13.284	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.191.244 blocked.
+2024-09-29 22:49:13.284	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.191.51 blocked.
+2024-09-29 22:49:13.285	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.104 blocked.
+2024-09-29 22:49:13.285	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.130 blocked.
+2024-09-29 22:49:13.285	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.138 blocked.
+2024-09-29 22:49:13.285	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.148 blocked.
+2024-09-29 22:49:13.285	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.163 blocked.
+2024-09-29 22:49:13.286	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.68.161.191 blocked.
+2024-09-29 22:49:13.286	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.68.168.34 blocked.
+2024-09-29 22:49:13.286	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 139.59.116.122 blocked.
+2024-09-29 22:49:13.286	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 139.59.183.149 blocked.
+2024-09-29 22:49:13.286	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 142.93.48.86 blocked.
+2024-09-29 22:49:13.287	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.110.255.50 blocked.
+2024-09-29 22:49:13.287	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.172 blocked.
+2024-09-29 22:49:13.287	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.174 blocked.
+2024-09-29 22:49:13.287	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.177 blocked.
+2024-09-29 22:49:13.287	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.182 blocked.
+2024-09-29 22:49:13.288	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.183 blocked.
+2024-09-29 22:49:13.288	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.184 blocked.
+2024-09-29 22:49:13.288	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.185 blocked.
+2024-09-29 22:49:13.288	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.186 blocked.
+2024-09-29 22:49:13.289	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.187 blocked.
+2024-09-29 22:49:13.289	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.189 blocked.
+2024-09-29 22:49:13.289	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.163.97 blocked.
+2024-09-29 22:49:13.289	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 147.182.160.251 blocked.
+2024-09-29 22:49:13.289	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.193.97 blocked.
+2024-09-29 22:49:13.290	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.51.61 blocked.
+2024-09-29 22:49:13.290	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.62.247 blocked.
+2024-09-29 22:49:13.290	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.62.99 blocked.
+2024-09-29 22:49:13.290	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.63.120 blocked.
+2024-09-29 22:49:13.291	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.77.11 blocked.
+2024-09-29 22:49:13.291	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 159.65.28.120 blocked.
+2024-09-29 22:49:13.291	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 159.65.28.9 blocked.
+2024-09-29 22:49:13.291	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 159.65.82.164 blocked.
+2024-09-29 22:49:13.291	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 161.35.59.213 blocked.
+2024-09-29 22:49:13.292	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 161.35.88.140 blocked.
+2024-09-29 22:49:13.292	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 161.35.90.212 blocked.
+2024-09-29 22:49:13.292	[P2P8]	INFO	global	src/p2p/net_node.inl:370	Subnet 162.218.65.0/24 blocked.
+2024-09-29 22:49:13.292	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.10.49 blocked.
+2024-09-29 22:49:13.292	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.10.5 blocked.
+2024-09-29 22:49:13.293	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.12.133 blocked.
+2024-09-29 22:49:13.293	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.15.144 blocked.
+2024-09-29 22:49:13.293	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.2.129 blocked.
+2024-09-29 22:49:13.293	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.2.201 blocked.
+2024-09-29 22:49:13.294	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.2.255 blocked.
+2024-09-29 22:49:13.294	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.2.48 blocked.
+2024-09-29 22:49:13.294	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.8.167 blocked.
+2024-09-29 22:49:13.294	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.177.22 blocked.
+2024-09-29 22:49:13.294	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.180.169 blocked.
+2024-09-29 22:49:13.295	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.181.14 blocked.
+2024-09-29 22:49:13.295	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.181.42 blocked.
+2024-09-29 22:49:13.295	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.185.205 blocked.
+2024-09-29 22:49:13.295	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.190.122 blocked.
+2024-09-29 22:49:13.295	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.190.183 blocked.
+2024-09-29 22:49:13.296	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.190.251 blocked.
+2024-09-29 22:49:13.296	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.71.178 blocked.
+2024-09-29 22:49:13.296	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.72.198 blocked.
+2024-09-29 22:49:13.296	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.82.181 blocked.
+2024-09-29 22:49:13.296	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.82.200 blocked.
+2024-09-29 22:49:13.297	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.82.213 blocked.
+2024-09-29 22:49:13.297	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.90.178 blocked.
+2024-09-29 22:49:13.297	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.90.70 blocked.
+2024-09-29 22:49:13.297	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.94.47 blocked.
+2024-09-29 22:49:13.297	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.71.220.59 blocked.
+2024-09-29 22:49:13.298	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.99.33.107 blocked.
+2024-09-29 22:49:13.298	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 174.138.10.123 blocked.
+2024-09-29 22:49:13.298	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 174.138.3.164 blocked.
+2024-09-29 22:49:13.298	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 174.138.45.150 blocked.
+2024-09-29 22:49:13.299	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 178.128.216.2 blocked.
+2024-09-29 22:49:13.299	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 178.62.209.127 blocked.
+2024-09-29 22:49:13.299	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 178.62.25.68 blocked.
+2024-09-29 22:49:13.299	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 178.62.9.149 blocked.
+2024-09-29 22:49:13.299	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.103.192 blocked.
+2024-09-29 22:49:13.300	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.112.13 blocked.
+2024-09-29 22:49:13.300	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.116.64 blocked.
+2024-09-29 22:49:13.300	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.186.6 blocked.
+2024-09-29 22:49:13.300	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.240.25 blocked.
+2024-09-29 22:49:13.300	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.36.103 blocked.
+2024-09-29 22:49:13.301	[P2P8]	INFO	global	src/p2p/net_node.inl:370	Subnet 199.116.84.0/24 blocked.
+2024-09-29 22:49:13.301	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 206.189.9.131 blocked.
+2024-09-29 22:49:13.301	[P2P8]	INFO	global	src/p2p/net_node.inl:370	Subnet 209.222.252.0/24 blocked.
+2024-09-29 22:49:13.301	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 209.97.135.247 blocked.
+2024-09-29 22:49:13.302	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 209.97.185.45 blocked.
+2024-09-29 22:49:13.302	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.113.138 blocked.
+2024-09-29 22:49:13.302	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.118.41 blocked.
+2024-09-29 22:49:13.302	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.119.226 blocked.
+2024-09-29 22:49:13.302	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.120.188 blocked.
+2024-09-29 22:49:13.303	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.121.112 blocked.
+2024-09-29 22:49:13.303	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.122.101 blocked.
+2024-09-29 22:49:13.303	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.122.248 blocked.
+2024-09-29 22:49:13.303	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.123.202 blocked.
+2024-09-29 22:49:13.303	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.123.242 blocked.
+2024-09-29 22:49:13.304	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.126 blocked.
+2024-09-29 22:49:13.304	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.135 blocked.
+2024-09-29 22:49:13.304	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.161 blocked.
+2024-09-29 22:49:13.304	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.171 blocked.
+2024-09-29 22:49:13.304	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.173 blocked.
+2024-09-29 22:49:13.305	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.246 blocked.
+2024-09-29 22:49:13.305	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.94 blocked.
+2024-09-29 22:49:13.305	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.125.242 blocked.
+2024-09-29 22:49:13.305	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.125.254 blocked.
+2024-09-29 22:49:13.306	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.125.49 blocked.
+2024-09-29 22:49:13.306	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.125.83 blocked.
+2024-09-29 22:49:13.306	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.104 blocked.
+2024-09-29 22:49:13.306	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.19 blocked.
+2024-09-29 22:49:13.306	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.25 blocked.
+2024-09-29 22:49:13.307	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.26 blocked.
+2024-09-29 22:49:13.307	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.42 blocked.
+2024-09-29 22:49:13.307	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.34.81 blocked.
+2024-09-29 22:49:13.307	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.34.86 blocked.
+2024-09-29 22:49:13.307	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.35.29 blocked.
+2024-09-29 22:49:13.308	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.36.64 blocked.
+2024-09-29 22:49:13.308	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.37.110 blocked.
+2024-09-29 22:49:13.308	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.38.196 blocked.
+2024-09-29 22:49:13.308	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.39.157 blocked.
+2024-09-29 22:49:13.308	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.40.186 blocked.
+2024-09-29 22:49:13.309	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.40.60 blocked.
+2024-09-29 22:49:13.309	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.41.0 blocked.
+2024-09-29 22:49:13.309	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.41.111 blocked.
+2024-09-29 22:49:13.309	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.42.188 blocked.
+2024-09-29 22:49:13.309	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.43.143 blocked.
+2024-09-29 22:49:13.310	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.10.221 blocked.
+2024-09-29 22:49:13.310	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.109.154 blocked.
+2024-09-29 22:49:13.310	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.221.137 blocked.
+2024-09-29 22:49:13.310	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.221.3 blocked.
+2024-09-29 22:49:13.310	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.221.73 blocked.
+2024-09-29 22:49:13.311	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.222 blocked.
+2024-09-29 22:49:13.311	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.223 blocked.
+2024-09-29 22:49:13.311	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.224 blocked.
+2024-09-29 22:49:13.311	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.225 blocked.
+2024-09-29 22:49:13.311	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.226 blocked.
+2024-09-29 22:49:13.312	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.227 blocked.
+2024-09-29 22:49:13.312	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.228 blocked.
+2024-09-29 22:49:13.312	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.229 blocked.
+2024-09-29 22:49:13.312	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.230 blocked.
+2024-09-29 22:49:13.313	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.231 blocked.
+2024-09-29 22:49:13.313	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.10 blocked.
+2024-09-29 22:49:13.313	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.11 blocked.
+2024-09-29 22:49:13.313	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.12 blocked.
+2024-09-29 22:49:13.313	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.120 blocked.
+2024-09-29 22:49:13.314	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.122 blocked.
+2024-09-29 22:49:13.314	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.123 blocked.
+2024-09-29 22:49:13.314	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.124 blocked.
+2024-09-29 22:49:13.314	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.125 blocked.
+2024-09-29 22:49:13.314	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.126 blocked.
+2024-09-29 22:49:13.315	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.127 blocked.
+2024-09-29 22:49:13.315	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.128 blocked.
+2024-09-29 22:49:13.315	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.129 blocked.
+2024-09-29 22:49:13.315	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.13 blocked.
+2024-09-29 22:49:13.315	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.130 blocked.
+2024-09-29 22:49:13.316	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.131 blocked.
+2024-09-29 22:49:13.316	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.132 blocked.
+2024-09-29 22:49:13.316	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.133 blocked.
+2024-09-29 22:49:13.316	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.14 blocked.
+2024-09-29 22:49:13.316	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.5 blocked.
+2024-09-29 22:49:13.317	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.6 blocked.
+2024-09-29 22:49:13.317	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.7 blocked.
+2024-09-29 22:49:13.317	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.8 blocked.
+2024-09-29 22:49:13.317	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.9 blocked.
+2024-09-29 22:49:13.318	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.116 blocked.
+2024-09-29 22:49:13.318	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.155 blocked.
+2024-09-29 22:49:13.318	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.156 blocked.
+2024-09-29 22:49:13.318	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.157 blocked.
+2024-09-29 22:49:13.318	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.158 blocked.
+2024-09-29 22:49:13.319	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.159 blocked.
+2024-09-29 22:49:13.319	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.160 blocked.
+2024-09-29 22:49:13.319	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.161 blocked.
+2024-09-29 22:49:13.319	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.162 blocked.
+2024-09-29 22:49:13.319	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.163 blocked.
+2024-09-29 22:49:13.320	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.164 blocked.
+2024-09-29 22:49:13.320	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.165 blocked.
+2024-09-29 22:49:13.320	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.166 blocked.
+2024-09-29 22:49:13.320	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.167 blocked.
+2024-09-29 22:49:13.320	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.168 blocked.
+2024-09-29 22:49:13.321	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.169 blocked.
+2024-09-29 22:49:13.321	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.170 blocked.
+2024-09-29 22:49:13.321	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.171 blocked.
+2024-09-29 22:49:13.321	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.172 blocked.
+2024-09-29 22:49:13.321	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.173 blocked.
+2024-09-29 22:49:13.322	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.174 blocked.
+2024-09-29 22:49:13.322	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.175 blocked.
+2024-09-29 22:49:13.322	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.176 blocked.
+2024-09-29 22:49:13.322	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.177 blocked.
+2024-09-29 22:49:13.322	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.178 blocked.
+2024-09-29 22:49:13.323	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.179 blocked.
+2024-09-29 22:49:13.323	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.180 blocked.
+2024-09-29 22:49:13.323	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.181 blocked.
+2024-09-29 22:49:13.323	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.182 blocked.
+2024-09-29 22:49:13.323	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.183 blocked.
+2024-09-29 22:49:13.324	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.184 blocked.
+2024-09-29 22:49:13.324	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.185 blocked.
+2024-09-29 22:49:13.324	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.186 blocked.
+2024-09-29 22:49:13.324	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 64.225.66.253 blocked.
+2024-09-29 22:49:13.324	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 64.225.70.236 blocked.
+2024-09-29 22:49:13.325	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 64.227.64.156 blocked.
+2024-09-29 22:49:13.325	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 64.227.66.185 blocked.
+2024-09-29 22:49:13.325	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.48.41 blocked.
+2024-09-29 22:49:13.325	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.49.24 blocked.
+2024-09-29 22:49:13.325	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.49.82 blocked.
+2024-09-29 22:49:13.326	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.50.7 blocked.
+2024-09-29 22:49:13.326	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.51.229 blocked.
+2024-09-29 22:49:13.326	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.56.225 blocked.
+2024-09-29 22:49:13.326	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.58.135 blocked.
+2024-09-29 22:49:13.326	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.60.175 blocked.
+2024-09-29 22:49:13.327	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.61.145 blocked.
+2024-09-29 22:49:13.327	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.80.101 blocked.
+2024-09-29 22:49:13.327	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.80.216 blocked.
+2024-09-29 22:49:13.327	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.81.118 blocked.
+2024-09-29 22:49:13.327	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.81.124 blocked.
+2024-09-29 22:49:13.328	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.81.125 blocked.
+2024-09-29 22:49:13.328	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.83.46 blocked.
+2024-09-29 22:49:13.328	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.85.204 blocked.
+2024-09-29 22:49:13.328	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.90.194 blocked.
+2024-09-29 22:49:13.328	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.90.196 blocked.
+2024-09-29 22:49:13.329	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.93.105 blocked.
+2024-09-29 22:49:13.329	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.93.131 blocked.
+2024-09-29 22:49:13.329	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.93.73 blocked.
+2024-09-29 22:49:13.329	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.21.186.59 blocked.
+2024-09-29 22:49:13.329	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.111.36 blocked.
+2024-09-29 22:49:13.330	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.16.126 blocked.
+2024-09-29 22:49:13.330	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.96.163 blocked.
+2024-09-29 22:49:13.330	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.96.21 blocked.
+2024-09-29 22:49:13.330	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.96.59 blocked.
+2024-09-29 22:49:13.331	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.142.161 blocked.
+2024-09-29 22:49:13.331	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.147.229 blocked.
+2024-09-29 22:49:13.331	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.172.253 blocked.
+2024-09-29 22:49:13.331	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.182.24 blocked.
+2024-09-29 22:49:13.331	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.186.96 blocked.
+2024-09-29 22:49:13.332	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.188.228 blocked.
+2024-09-29 22:49:13.332	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.188.82 blocked.
+2024-09-29 22:49:13.332	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.189.158 blocked.
+2024-09-29 22:49:13.332	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.189.74 blocked.
+2024-09-29 22:49:13.332	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.190.238 blocked.
+2024-09-29 22:49:13.333	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.191.8 blocked.
+2024-09-29 22:49:13.333	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.192.174 blocked.
+2024-09-29 22:49:13.333	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.192.204 blocked.
+2024-09-29 22:49:13.333	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.47.43.59 blocked.
+2024-09-29 22:49:13.334	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.47.45.21 blocked.
+2024-09-29 22:49:13.334	[P2P8]	INFO	global	src/p2p/net_node.inl:370	Subnet 91.198.115.0/24 blocked.
+2024-09-29 22:49:13.334	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.136.170 blocked.
+2024-09-29 22:49:13.334	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.138.15 blocked.
+2024-09-29 22:49:13.334	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.139.114 blocked.
+2024-09-29 22:49:13.335	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.139.44 blocked.
+2024-09-29 22:49:13.335	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.140.48 blocked.
+2024-09-29 22:49:13.335	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.187.176 blocked.
+2024-09-29 22:49:13.335	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.202 blocked.
+2024-09-29 22:49:13.335	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.35 blocked.
+2024-09-29 22:49:13.336	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.86 blocked.
+2024-09-29 22:49:13.336	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.87 blocked.
+2024-09-29 22:49:13.336	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.98 blocked.
+2024-09-29 22:49:13.336	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.190.212 blocked.
+2024-09-29 22:49:13.336	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.199.160 blocked.
+2024-09-29 22:49:13.337	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.199.217 blocked.
+2024-09-29 22:49:13.337	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.200.97 blocked.
+2024-09-29 22:49:13.337	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.201.10 blocked.
+2024-09-29 22:49:13.337	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.202.32 blocked.
+2024-09-29 22:49:13.337	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.203.255 blocked.
+2024-09-29 22:49:31.873	2560	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-29 22:49:31.873	2560	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-29 22:49:32.821	[SRV_MAIN]	INFO	global	src/daemon/p2p.h:81	p2p net loop stopped
+2024-09-29 22:49:32.822	2560	INFO	msgwriter	src/common/scoped_message_writer.h:102	Stop signal sent
+2024-09-29 22:49:32.822	[SRV_MAIN]	INFO	global	src/daemon/rpc.h:84	Stopping core RPC server...
+2024-09-29 22:49:32.822	[SRV_MAIN]	INFO	global	src/daemon/daemon.cpp:228	Node stopped.
+2024-09-29 22:49:32.869	[SRV_MAIN]	INFO	global	src/daemon/rpc.h:96	Deinitializing core RPC server...
+2024-09-29 22:49:32.869	[SRV_MAIN]	INFO	global	src/daemon/p2p.h:91	Deinitializing p2p...
+2024-09-29 22:49:33.490	[SRV_MAIN]	INFO	global	src/daemon/core.h:102	Deinitializing core...
+2024-09-29 22:49:33.506	[SRV_MAIN]	INFO	global	src/daemon/protocol.h:75	Stopping cryptonote protocol...
+2024-09-29 22:49:33.506	[SRV_MAIN]	INFO	global	src/daemon/protocol.h:79	Cryptonote protocol stopped successfully
+2024-09-29 22:49:34.954	19348	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-29 22:49:34.954	19348	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-29 22:49:38.178	19348	ERROR	msgwriter	src/common/scoped_message_writer.h:102	Error: Couldn't connect to daemon: 127.0.0.1:18081
+2024-09-29 22:54:16.688	12968	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-29 22:54:16.688	12968	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-29 22:54:16.689	12968	INFO	global	src/daemon/protocol.h:53	Initializing cryptonote protocol...
+2024-09-29 22:54:16.689	12968	INFO	global	src/daemon/protocol.h:58	Cryptonote protocol initialized OK
+2024-09-29 22:54:16.689	12968	INFO	global	src/daemon/core.h:64	Initializing core...
+2024-09-29 22:54:16.689	12968	INFO	global	src/cryptonote_core/cryptonote_core.cpp:523	Loading blockchain from folder F:\bitmonero\lmdb ...
+2024-09-29 22:54:16.714	12968	INFO	global	src/cryptonote_core/cryptonote_core.cpp:698	Loading checkpoints
+2024-09-29 22:54:16.715	12968	INFO	global	src/daemon/core.h:81	Core initialized OK
+2024-09-29 22:54:16.715	12968	INFO	global	src/daemon/p2p.h:64	Initializing p2p server...
+2024-09-29 22:54:16.718	12968	INFO	global	src/daemon/p2p.h:69	p2p server initialized OK
+2024-09-29 22:54:16.718	12968	INFO	global	src/daemon/rpc.h:63	Initializing core RPC server...
+2024-09-29 22:54:16.719	12968	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):18081
+2024-09-29 22:54:16.730	12968	INFO	global	src/daemon/rpc.h:69	core RPC server initialized OK on port: 18081
+2024-09-29 22:54:16.740	12968	INFO	global	src/daemon/rpc.h:74	Starting core RPC server...
+2024-09-29 22:54:16.740	[SRV_MAIN]	INFO	global	src/daemon/rpc.h:79	core RPC server started ok
+2024-09-29 22:54:16.740	[SRV_MAIN]	INFO	global	src/daemon/p2p.h:79	Starting p2p net loop...
+2024-09-29 22:54:17.750	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	
+2024-09-29 22:54:17.750	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	**********************************************************************
+2024-09-29 22:54:17.750	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	The daemon will start synchronizing with the network. This may take a long time to complete.
+2024-09-29 22:54:17.750	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	
+2024-09-29 22:54:17.750	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	You can set the level of process detailization through "set_log <level|categories>" command,
+2024-09-29 22:54:17.750	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	where <level> is between 0 (no details) and 4 (very verbose), or custom category based levels (eg, *:WARNING).
+2024-09-29 22:54:17.750	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	
+2024-09-29 22:54:17.750	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	Use the "help" command to see the list of available commands.
+2024-09-29 22:54:17.751	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	Use "help <command>" to see a command's documentation.
+2024-09-29 22:54:17.751	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	**********************************************************************
+2024-09-29 22:54:17.925	[P2P9]	INFO	global	src/cryptonote_protocol/cryptonote_protocol_handler.inl:409	[45.78.183.59:18080 OUT] Sync data returned a new top block candidate: 1 -> 3248411 [Your node is 3248410 blocks (10.4 years) behind] 
+2024-09-29 22:54:17.925	[P2P9]	INFO	global	src/cryptonote_protocol/cryptonote_protocol_handler.inl:409	SYNCHRONIZATION started
+2024-09-29 22:54:18.688	17112	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-29 22:54:18.688	17112	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-29 22:54:19.679	17112	INFO	msgwriter	src/common/scoped_message_writer.h:102	Height: 1, target: 3248411 (3.07843e-005%)
+2024-09-29 22:54:19.679	17112	INFO	msgwriter	src/common/scoped_message_writer.h:102	Downloading at 6 kB/s
+2024-09-29 22:54:19.679	17112	INFO	msgwriter	src/common/scoped_message_writer.h:102	Next needed pruning seed: 2
+2024-09-29 22:54:19.679	17112	INFO	msgwriter	src/common/scoped_message_writer.h:102	6 peers
+2024-09-29 22:54:19.679	17112	INFO	msgwriter	src/common/scoped_message_writer.h:102	Remote Host                        Peer_ID   State   Prune_Seed          Height  DL kB/s, Queued Blocks / MB
+2024-09-29 22:54:19.679	17112	INFO	msgwriter	src/common/scoped_message_writer.h:102	191.96.1.197:18080        c554af6641cf82ef  normal            0         3248411  1 kB/s, 0 blocks / 0 MB queued
+2024-09-29 22:54:19.679	17112	INFO	msgwriter	src/common/scoped_message_writer.h:102	135.181.202.85:18080      3441fc3647bfe3b6  normal            0         3248411  1 kB/s, 0 blocks / 0 MB queued
+2024-09-29 22:54:19.679	17112	INFO	msgwriter	src/common/scoped_message_writer.h:102	95.208.33.213:18080       4e9b21080ee945b4  normal            0         3248411  1 kB/s, 0 blocks / 0 MB queued
+2024-09-29 22:54:19.679	17112	INFO	msgwriter	src/common/scoped_message_writer.h:102	5.81.54.96:18080          0000000000000000  before_handshake  0         0  1 kB/s, 0 blocks / 0 MB queued
+2024-09-29 22:54:19.680	17112	INFO	msgwriter	src/common/scoped_message_writer.h:102	68.44.243.74:18080        216b67aeca1e1bdd  normal            0         3248411  1 kB/s, 0 blocks / 0 MB queued
+2024-09-29 22:54:19.680	17112	INFO	msgwriter	src/common/scoped_message_writer.h:102	45.78.183.59:18080        501ec6478bb7173a  normal            0         3248411  1 kB/s, 0 blocks / 0 MB queued
+2024-09-29 22:54:19.680	17112	INFO	msgwriter	src/common/scoped_message_writer.h:102	0 spans, 0 MB
+2024-09-29 22:54:19.680	17112	INFO	msgwriter	src/common/scoped_message_writer.h:102	[]
+2024-09-29 22:54:45.693	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 104.248.206.131 blocked.
+2024-09-29 22:54:45.693	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 104.248.231.61 blocked.
+2024-09-29 22:54:45.693	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 116.203.249.163 blocked.
+2024-09-29 22:54:45.694	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 128.199.45.242 blocked.
+2024-09-29 22:54:45.694	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.122.50.39 blocked.
+2024-09-29 22:54:45.694	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.122.61.72 blocked.
+2024-09-29 22:54:45.694	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.16.242 blocked.
+2024-09-29 22:54:45.695	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.16.244 blocked.
+2024-09-29 22:54:45.695	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.19.30 blocked.
+2024-09-29 22:54:45.695	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.24.146 blocked.
+2024-09-29 22:54:45.695	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.31.107 blocked.
+2024-09-29 22:54:45.696	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.31.128 blocked.
+2024-09-29 22:54:45.696	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.31.191 blocked.
+2024-09-29 22:54:45.696	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.31.237 blocked.
+2024-09-29 22:54:45.696	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.98.94 blocked.
+2024-09-29 22:54:45.697	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.105 blocked.
+2024-09-29 22:54:45.697	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.113 blocked.
+2024-09-29 22:54:45.697	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.114 blocked.
+2024-09-29 22:54:45.698	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.127 blocked.
+2024-09-29 22:54:45.698	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.146 blocked.
+2024-09-29 22:54:45.698	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.148 blocked.
+2024-09-29 22:54:45.699	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.158 blocked.
+2024-09-29 22:54:45.699	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.164 blocked.
+2024-09-29 22:54:45.699	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.167 blocked.
+2024-09-29 22:54:45.699	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.178 blocked.
+2024-09-29 22:54:45.700	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.184 blocked.
+2024-09-29 22:54:45.700	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.187 blocked.
+2024-09-29 22:54:45.700	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.188 blocked.
+2024-09-29 22:54:45.700	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.193 blocked.
+2024-09-29 22:54:45.701	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.198 blocked.
+2024-09-29 22:54:45.701	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.200 blocked.
+2024-09-29 22:54:45.701	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.201 blocked.
+2024-09-29 22:54:45.702	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.204 blocked.
+2024-09-29 22:54:45.702	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.208 blocked.
+2024-09-29 22:54:45.702	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.255 blocked.
+2024-09-29 22:54:45.702	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.63 blocked.
+2024-09-29 22:54:45.703	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.88 blocked.
+2024-09-29 22:54:45.703	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.95 blocked.
+2024-09-29 22:54:45.703	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.98 blocked.
+2024-09-29 22:54:45.703	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.87.18 blocked.
+2024-09-29 22:54:45.704	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.87.25 blocked.
+2024-09-29 22:54:45.704	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.191.218 blocked.
+2024-09-29 22:54:45.704	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.191.237 blocked.
+2024-09-29 22:54:45.704	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.191.244 blocked.
+2024-09-29 22:54:45.705	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.191.51 blocked.
+2024-09-29 22:54:45.705	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.104 blocked.
+2024-09-29 22:54:45.705	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.130 blocked.
+2024-09-29 22:54:45.706	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.138 blocked.
+2024-09-29 22:54:45.706	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.148 blocked.
+2024-09-29 22:54:45.706	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.163 blocked.
+2024-09-29 22:54:45.706	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.68.161.191 blocked.
+2024-09-29 22:54:45.707	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.68.168.34 blocked.
+2024-09-29 22:54:45.707	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 139.59.116.122 blocked.
+2024-09-29 22:54:45.707	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 139.59.183.149 blocked.
+2024-09-29 22:54:45.707	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 142.93.48.86 blocked.
+2024-09-29 22:54:45.708	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.110.255.50 blocked.
+2024-09-29 22:54:45.708	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.172 blocked.
+2024-09-29 22:54:45.708	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.174 blocked.
+2024-09-29 22:54:45.708	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.177 blocked.
+2024-09-29 22:54:45.709	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.182 blocked.
+2024-09-29 22:54:45.709	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.183 blocked.
+2024-09-29 22:54:45.709	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.184 blocked.
+2024-09-29 22:54:45.709	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.185 blocked.
+2024-09-29 22:54:45.710	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.186 blocked.
+2024-09-29 22:54:45.710	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.187 blocked.
+2024-09-29 22:54:45.710	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.189 blocked.
+2024-09-29 22:54:45.710	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.163.97 blocked.
+2024-09-29 22:54:45.711	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 147.182.160.251 blocked.
+2024-09-29 22:54:45.711	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.193.97 blocked.
+2024-09-29 22:54:45.711	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.51.61 blocked.
+2024-09-29 22:54:45.711	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.62.247 blocked.
+2024-09-29 22:54:45.712	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.62.99 blocked.
+2024-09-29 22:54:45.712	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.63.120 blocked.
+2024-09-29 22:54:45.712	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.77.11 blocked.
+2024-09-29 22:54:45.713	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 159.65.28.120 blocked.
+2024-09-29 22:54:45.713	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 159.65.28.9 blocked.
+2024-09-29 22:54:45.713	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 159.65.82.164 blocked.
+2024-09-29 22:54:45.713	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 161.35.59.213 blocked.
+2024-09-29 22:54:45.714	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 161.35.88.140 blocked.
+2024-09-29 22:54:45.714	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 161.35.90.212 blocked.
+2024-09-29 22:54:45.714	[P2P8]	INFO	global	src/p2p/net_node.inl:370	Subnet 162.218.65.0/24 blocked.
+2024-09-29 22:54:45.715	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.10.49 blocked.
+2024-09-29 22:54:45.715	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.10.5 blocked.
+2024-09-29 22:54:45.715	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.12.133 blocked.
+2024-09-29 22:54:45.715	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.15.144 blocked.
+2024-09-29 22:54:45.716	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.2.129 blocked.
+2024-09-29 22:54:45.716	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.2.201 blocked.
+2024-09-29 22:54:45.716	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.2.255 blocked.
+2024-09-29 22:54:45.716	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.2.48 blocked.
+2024-09-29 22:54:45.717	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.8.167 blocked.
+2024-09-29 22:54:45.717	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.177.22 blocked.
+2024-09-29 22:54:45.717	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.180.169 blocked.
+2024-09-29 22:54:45.718	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.181.14 blocked.
+2024-09-29 22:54:45.718	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.181.42 blocked.
+2024-09-29 22:54:45.718	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.185.205 blocked.
+2024-09-29 22:54:45.718	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.190.122 blocked.
+2024-09-29 22:54:45.719	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.190.183 blocked.
+2024-09-29 22:54:45.719	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.190.251 blocked.
+2024-09-29 22:54:45.719	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.71.178 blocked.
+2024-09-29 22:54:45.719	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.72.198 blocked.
+2024-09-29 22:54:45.720	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.82.181 blocked.
+2024-09-29 22:54:45.720	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.82.200 blocked.
+2024-09-29 22:54:45.720	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.82.213 blocked.
+2024-09-29 22:54:45.720	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.90.178 blocked.
+2024-09-29 22:54:45.721	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.90.70 blocked.
+2024-09-29 22:54:45.721	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.94.47 blocked.
+2024-09-29 22:54:45.721	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.71.220.59 blocked.
+2024-09-29 22:54:45.721	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.99.33.107 blocked.
+2024-09-29 22:54:45.722	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 174.138.10.123 blocked.
+2024-09-29 22:54:45.722	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 174.138.3.164 blocked.
+2024-09-29 22:54:45.722	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 174.138.45.150 blocked.
+2024-09-29 22:54:45.722	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 178.128.216.2 blocked.
+2024-09-29 22:54:45.723	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 178.62.209.127 blocked.
+2024-09-29 22:54:45.723	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 178.62.25.68 blocked.
+2024-09-29 22:54:45.723	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 178.62.9.149 blocked.
+2024-09-29 22:54:45.724	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.103.192 blocked.
+2024-09-29 22:54:45.724	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.112.13 blocked.
+2024-09-29 22:54:45.724	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.116.64 blocked.
+2024-09-29 22:54:45.724	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.186.6 blocked.
+2024-09-29 22:54:45.725	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.240.25 blocked.
+2024-09-29 22:54:45.725	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.36.103 blocked.
+2024-09-29 22:54:45.725	[P2P8]	INFO	global	src/p2p/net_node.inl:370	Subnet 199.116.84.0/24 blocked.
+2024-09-29 22:54:45.725	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 206.189.9.131 blocked.
+2024-09-29 22:54:45.726	[P2P8]	INFO	global	src/p2p/net_node.inl:370	Subnet 209.222.252.0/24 blocked.
+2024-09-29 22:54:45.726	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 209.97.135.247 blocked.
+2024-09-29 22:54:45.726	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 209.97.185.45 blocked.
+2024-09-29 22:54:45.726	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.113.138 blocked.
+2024-09-29 22:54:45.727	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.118.41 blocked.
+2024-09-29 22:54:45.727	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.119.226 blocked.
+2024-09-29 22:54:45.727	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.120.188 blocked.
+2024-09-29 22:54:45.727	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.121.112 blocked.
+2024-09-29 22:54:45.728	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.122.101 blocked.
+2024-09-29 22:54:45.728	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.122.248 blocked.
+2024-09-29 22:54:45.728	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.123.202 blocked.
+2024-09-29 22:54:45.728	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.123.242 blocked.
+2024-09-29 22:54:45.729	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.126 blocked.
+2024-09-29 22:54:45.729	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.135 blocked.
+2024-09-29 22:54:45.729	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.161 blocked.
+2024-09-29 22:54:45.730	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.171 blocked.
+2024-09-29 22:54:45.730	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.173 blocked.
+2024-09-29 22:54:45.730	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.246 blocked.
+2024-09-29 22:54:45.731	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.94 blocked.
+2024-09-29 22:54:45.731	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.125.242 blocked.
+2024-09-29 22:54:45.731	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.125.254 blocked.
+2024-09-29 22:54:45.731	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.125.49 blocked.
+2024-09-29 22:54:45.732	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.125.83 blocked.
+2024-09-29 22:54:45.732	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.104 blocked.
+2024-09-29 22:54:45.732	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.19 blocked.
+2024-09-29 22:54:45.733	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.25 blocked.
+2024-09-29 22:54:45.733	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.26 blocked.
+2024-09-29 22:54:45.733	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.42 blocked.
+2024-09-29 22:54:45.733	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.34.81 blocked.
+2024-09-29 22:54:45.734	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.34.86 blocked.
+2024-09-29 22:54:45.734	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.35.29 blocked.
+2024-09-29 22:54:45.734	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.36.64 blocked.
+2024-09-29 22:54:45.734	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.37.110 blocked.
+2024-09-29 22:54:45.735	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.38.196 blocked.
+2024-09-29 22:54:45.735	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.39.157 blocked.
+2024-09-29 22:54:45.735	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.40.186 blocked.
+2024-09-29 22:54:45.735	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.40.60 blocked.
+2024-09-29 22:54:45.736	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.41.0 blocked.
+2024-09-29 22:54:45.736	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.41.111 blocked.
+2024-09-29 22:54:45.736	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.42.188 blocked.
+2024-09-29 22:54:45.737	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.43.143 blocked.
+2024-09-29 22:54:45.737	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.10.221 blocked.
+2024-09-29 22:54:45.737	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.109.154 blocked.
+2024-09-29 22:54:45.737	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.221.137 blocked.
+2024-09-29 22:54:45.738	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.221.3 blocked.
+2024-09-29 22:54:45.738	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.221.73 blocked.
+2024-09-29 22:54:45.738	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.222 blocked.
+2024-09-29 22:54:45.738	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.223 blocked.
+2024-09-29 22:54:45.739	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.224 blocked.
+2024-09-29 22:54:45.739	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.225 blocked.
+2024-09-29 22:54:45.739	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.226 blocked.
+2024-09-29 22:54:45.740	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.227 blocked.
+2024-09-29 22:54:45.740	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.228 blocked.
+2024-09-29 22:54:45.740	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.229 blocked.
+2024-09-29 22:54:45.740	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.230 blocked.
+2024-09-29 22:54:45.740	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.231 blocked.
+2024-09-29 22:54:45.741	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.10 blocked.
+2024-09-29 22:54:45.741	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.11 blocked.
+2024-09-29 22:54:45.741	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.12 blocked.
+2024-09-29 22:54:45.741	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.120 blocked.
+2024-09-29 22:54:45.742	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.122 blocked.
+2024-09-29 22:54:45.742	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.123 blocked.
+2024-09-29 22:54:45.742	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.124 blocked.
+2024-09-29 22:54:45.742	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.125 blocked.
+2024-09-29 22:54:45.743	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.126 blocked.
+2024-09-29 22:54:45.743	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.127 blocked.
+2024-09-29 22:54:45.743	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.128 blocked.
+2024-09-29 22:54:45.744	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.129 blocked.
+2024-09-29 22:54:45.744	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.13 blocked.
+2024-09-29 22:54:45.744	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.130 blocked.
+2024-09-29 22:54:45.744	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.131 blocked.
+2024-09-29 22:54:45.745	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.132 blocked.
+2024-09-29 22:54:45.745	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.133 blocked.
+2024-09-29 22:54:45.745	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.14 blocked.
+2024-09-29 22:54:45.745	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.5 blocked.
+2024-09-29 22:54:45.745	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.6 blocked.
+2024-09-29 22:54:45.746	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.7 blocked.
+2024-09-29 22:54:45.746	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.8 blocked.
+2024-09-29 22:54:45.746	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.9 blocked.
+2024-09-29 22:54:45.746	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.116 blocked.
+2024-09-29 22:54:45.747	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.155 blocked.
+2024-09-29 22:54:45.747	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.156 blocked.
+2024-09-29 22:54:45.747	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.157 blocked.
+2024-09-29 22:54:45.748	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.158 blocked.
+2024-09-29 22:54:45.748	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.159 blocked.
+2024-09-29 22:54:45.748	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.160 blocked.
+2024-09-29 22:54:45.749	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.161 blocked.
+2024-09-29 22:54:45.749	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.162 blocked.
+2024-09-29 22:54:45.749	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.163 blocked.
+2024-09-29 22:54:45.749	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.164 blocked.
+2024-09-29 22:54:45.750	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.165 blocked.
+2024-09-29 22:54:45.750	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.166 blocked.
+2024-09-29 22:54:45.750	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.167 blocked.
+2024-09-29 22:54:45.751	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.168 blocked.
+2024-09-29 22:54:45.751	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.169 blocked.
+2024-09-29 22:54:45.751	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.170 blocked.
+2024-09-29 22:54:45.751	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.171 blocked.
+2024-09-29 22:54:45.752	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.172 blocked.
+2024-09-29 22:54:45.752	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.173 blocked.
+2024-09-29 22:54:45.752	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.174 blocked.
+2024-09-29 22:54:45.752	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.175 blocked.
+2024-09-29 22:54:45.753	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.176 blocked.
+2024-09-29 22:54:45.753	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.177 blocked.
+2024-09-29 22:54:45.753	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.178 blocked.
+2024-09-29 22:54:45.753	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.179 blocked.
+2024-09-29 22:54:45.754	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.180 blocked.
+2024-09-29 22:54:45.754	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.181 blocked.
+2024-09-29 22:54:45.754	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.182 blocked.
+2024-09-29 22:54:45.754	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.183 blocked.
+2024-09-29 22:54:45.755	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.184 blocked.
+2024-09-29 22:54:45.755	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.185 blocked.
+2024-09-29 22:54:45.755	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.186 blocked.
+2024-09-29 22:54:45.756	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 64.225.66.253 blocked.
+2024-09-29 22:54:45.756	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 64.225.70.236 blocked.
+2024-09-29 22:54:45.756	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 64.227.64.156 blocked.
+2024-09-29 22:54:45.756	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 64.227.66.185 blocked.
+2024-09-29 22:54:45.757	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.48.41 blocked.
+2024-09-29 22:54:45.757	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.49.24 blocked.
+2024-09-29 22:54:45.757	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.49.82 blocked.
+2024-09-29 22:54:45.757	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.50.7 blocked.
+2024-09-29 22:54:45.758	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.51.229 blocked.
+2024-09-29 22:54:45.758	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.56.225 blocked.
+2024-09-29 22:54:45.758	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.58.135 blocked.
+2024-09-29 22:54:45.758	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.60.175 blocked.
+2024-09-29 22:54:45.759	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.61.145 blocked.
+2024-09-29 22:54:45.759	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.80.101 blocked.
+2024-09-29 22:54:45.759	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.80.216 blocked.
+2024-09-29 22:54:45.759	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.81.118 blocked.
+2024-09-29 22:54:45.760	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.81.124 blocked.
+2024-09-29 22:54:45.760	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.81.125 blocked.
+2024-09-29 22:54:45.760	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.83.46 blocked.
+2024-09-29 22:54:45.760	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.85.204 blocked.
+2024-09-29 22:54:45.761	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.90.194 blocked.
+2024-09-29 22:54:45.761	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.90.196 blocked.
+2024-09-29 22:54:45.761	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.93.105 blocked.
+2024-09-29 22:54:45.761	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.93.131 blocked.
+2024-09-29 22:54:45.762	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.93.73 blocked.
+2024-09-29 22:54:45.762	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.21.186.59 blocked.
+2024-09-29 22:54:45.762	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.111.36 blocked.
+2024-09-29 22:54:45.762	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.16.126 blocked.
+2024-09-29 22:54:45.763	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.96.163 blocked.
+2024-09-29 22:54:45.763	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.96.21 blocked.
+2024-09-29 22:54:45.763	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.96.59 blocked.
+2024-09-29 22:54:45.763	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.142.161 blocked.
+2024-09-29 22:54:45.764	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.147.229 blocked.
+2024-09-29 22:54:45.764	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.172.253 blocked.
+2024-09-29 22:54:45.764	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.182.24 blocked.
+2024-09-29 22:54:45.765	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.186.96 blocked.
+2024-09-29 22:54:45.765	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.188.228 blocked.
+2024-09-29 22:54:45.765	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.188.82 blocked.
+2024-09-29 22:54:45.765	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.189.158 blocked.
+2024-09-29 22:54:45.766	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.189.74 blocked.
+2024-09-29 22:54:45.766	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.190.238 blocked.
+2024-09-29 22:54:45.766	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.191.8 blocked.
+2024-09-29 22:54:45.766	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.192.174 blocked.
+2024-09-29 22:54:45.767	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.192.204 blocked.
+2024-09-29 22:54:45.767	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.47.43.59 blocked.
+2024-09-29 22:54:45.767	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.47.45.21 blocked.
+2024-09-29 22:54:45.767	[P2P8]	INFO	global	src/p2p/net_node.inl:370	Subnet 91.198.115.0/24 blocked.
+2024-09-29 22:54:45.768	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.136.170 blocked.
+2024-09-29 22:54:45.768	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.138.15 blocked.
+2024-09-29 22:54:45.768	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.139.114 blocked.
+2024-09-29 22:54:45.768	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.139.44 blocked.
+2024-09-29 22:54:45.769	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.140.48 blocked.
+2024-09-29 22:54:45.769	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.187.176 blocked.
+2024-09-29 22:54:45.769	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.202 blocked.
+2024-09-29 22:54:45.769	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.35 blocked.
+2024-09-29 22:54:45.770	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.86 blocked.
+2024-09-29 22:54:45.770	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.87 blocked.
+2024-09-29 22:54:45.770	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.98 blocked.
+2024-09-29 22:54:45.770	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.190.212 blocked.
+2024-09-29 22:54:45.771	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.199.160 blocked.
+2024-09-29 22:54:45.771	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.199.217 blocked.
+2024-09-29 22:54:45.771	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.200.97 blocked.
+2024-09-29 22:54:45.772	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.201.10 blocked.
+2024-09-29 22:54:45.772	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.202.32 blocked.
+2024-09-29 22:54:45.772	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.203.255 blocked.
+2024-09-29 22:54:54.868	11284	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-29 22:54:54.868	11284	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-29 22:54:55.523	[SRV_MAIN]	INFO	global	src/daemon/p2p.h:81	p2p net loop stopped
+2024-09-29 22:54:55.523	11284	INFO	msgwriter	src/common/scoped_message_writer.h:102	Stop signal sent
+2024-09-29 22:54:55.528	[SRV_MAIN]	INFO	global	src/daemon/rpc.h:84	Stopping core RPC server...
+2024-09-29 22:54:56.659	[SRV_MAIN]	INFO	global	src/daemon/daemon.cpp:228	Node stopped.
+2024-09-29 22:54:56.703	[SRV_MAIN]	INFO	global	src/daemon/rpc.h:96	Deinitializing core RPC server...
+2024-09-29 22:54:56.837	[SRV_MAIN]	INFO	global	src/daemon/p2p.h:91	Deinitializing p2p...
+2024-09-29 22:54:56.843	[SRV_MAIN]	INFO	global	src/daemon/core.h:102	Deinitializing core...
+2024-09-29 22:54:56.853	[SRV_MAIN]	INFO	global	src/daemon/protocol.h:75	Stopping cryptonote protocol...
+2024-09-29 22:54:56.853	[SRV_MAIN]	INFO	global	src/daemon/protocol.h:79	Cryptonote protocol stopped successfully
+2024-09-29 22:54:57.653	6772	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-29 22:54:57.653	6772	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-29 22:55:00.990	6772	ERROR	msgwriter	src/common/scoped_message_writer.h:102	Error: Couldn't connect to daemon: 127.0.0.1:18081
+2024-09-29 22:55:59.534	12572	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-29 22:55:59.534	12572	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-29 22:55:59.535	12572	INFO	global	src/daemon/protocol.h:53	Initializing cryptonote protocol...
+2024-09-29 22:55:59.535	12572	INFO	global	src/daemon/protocol.h:58	Cryptonote protocol initialized OK
+2024-09-29 22:55:59.535	12572	INFO	global	src/daemon/core.h:64	Initializing core...
+2024-09-29 22:55:59.536	12572	INFO	global	src/cryptonote_core/cryptonote_core.cpp:523	Loading blockchain from folder F:\bitmonero\lmdb ...
+2024-09-29 22:55:59.559	12572	INFO	global	src/cryptonote_core/cryptonote_core.cpp:698	Loading checkpoints
+2024-09-29 22:55:59.559	12572	INFO	global	src/daemon/core.h:81	Core initialized OK
+2024-09-29 22:55:59.559	12572	INFO	global	src/daemon/p2p.h:64	Initializing p2p server...
+2024-09-29 22:55:59.563	12572	INFO	global	src/daemon/p2p.h:69	p2p server initialized OK
+2024-09-29 22:55:59.564	12572	INFO	global	src/daemon/rpc.h:63	Initializing core RPC server...
+2024-09-29 22:55:59.564	12572	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):18081
+2024-09-29 22:55:59.576	12572	INFO	global	src/daemon/rpc.h:69	core RPC server initialized OK on port: 18081
+2024-09-29 22:55:59.585	12572	INFO	global	src/daemon/rpc.h:74	Starting core RPC server...
+2024-09-29 22:55:59.585	[SRV_MAIN]	INFO	global	src/daemon/rpc.h:79	core RPC server started ok
+2024-09-29 22:55:59.585	[SRV_MAIN]	INFO	global	src/daemon/p2p.h:79	Starting p2p net loop...
+2024-09-29 22:56:00.588	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	
+2024-09-29 22:56:00.588	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	**********************************************************************
+2024-09-29 22:56:00.588	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	The daemon will start synchronizing with the network. This may take a long time to complete.
+2024-09-29 22:56:00.588	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	
+2024-09-29 22:56:00.588	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	You can set the level of process detailization through "set_log <level|categories>" command,
+2024-09-29 22:56:00.588	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	where <level> is between 0 (no details) and 4 (very verbose), or custom category based levels (eg, *:WARNING).
+2024-09-29 22:56:00.588	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	
+2024-09-29 22:56:00.589	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	Use the "help" command to see the list of available commands.
+2024-09-29 22:56:00.589	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	Use "help <command>" to see a command's documentation.
+2024-09-29 22:56:00.589	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	**********************************************************************
+2024-09-29 22:56:00.783	[P2P7]	INFO	global	src/cryptonote_protocol/cryptonote_protocol_handler.inl:409	[68.44.243.74:18080 OUT] Sync data returned a new top block candidate: 1 -> 3248412 [Your node is 3248411 blocks (10.4 years) behind] 
+2024-09-29 22:56:00.783	[P2P7]	INFO	global	src/cryptonote_protocol/cryptonote_protocol_handler.inl:409	SYNCHRONIZATION started
+2024-09-29 22:56:01.535	1124	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-29 22:56:01.535	1124	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-29 22:56:03.311	1124	INFO	msgwriter	src/common/scoped_message_writer.h:102	Height: 1, target: 3248412 (3.07843e-005%)
+2024-09-29 22:56:03.311	1124	INFO	msgwriter	src/common/scoped_message_writer.h:102	Downloading at 3 kB/s
+2024-09-29 22:56:03.312	1124	INFO	msgwriter	src/common/scoped_message_writer.h:102	Next needed pruning seed: 2
+2024-09-29 22:56:03.312	1124	INFO	msgwriter	src/common/scoped_message_writer.h:102	4 peers
+2024-09-29 22:56:03.312	1124	INFO	msgwriter	src/common/scoped_message_writer.h:102	Remote Host                        Peer_ID   State   Prune_Seed          Height  DL kB/s, Queued Blocks / MB
+2024-09-29 22:56:03.312	1124	INFO	msgwriter	src/common/scoped_message_writer.h:102	193.142.4.105:18085       0000000000000000  before_handshake  0         0  0 kB/s, 0 blocks / 0 MB queued
+2024-09-29 22:56:03.312	1124	INFO	msgwriter	src/common/scoped_message_writer.h:102	95.208.33.213:18080       4e9b21080ee945b4  normal            0         3248412  1 kB/s, 0 blocks / 0 MB queued
+2024-09-29 22:56:03.312	1124	INFO	msgwriter	src/common/scoped_message_writer.h:102	72.199.170.177:18080      86b8b0aa0bd6a351  normal            0         3248412  1 kB/s, 0 blocks / 0 MB queued
+2024-09-29 22:56:03.312	1124	INFO	msgwriter	src/common/scoped_message_writer.h:102	68.44.243.74:18080        216b67aeca1e1bdd  normal            0         3248412  1 kB/s, 0 blocks / 0 MB queued
+2024-09-29 22:56:03.312	1124	INFO	msgwriter	src/common/scoped_message_writer.h:102	0 spans, 0 MB
+2024-09-29 22:56:03.312	1124	INFO	msgwriter	src/common/scoped_message_writer.h:102	[]
+2024-09-29 22:56:13.271	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 104.248.206.131 blocked.
+2024-09-29 22:56:13.271	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 104.248.231.61 blocked.
+2024-09-29 22:56:13.272	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 116.203.249.163 blocked.
+2024-09-29 22:56:13.272	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 128.199.45.242 blocked.
+2024-09-29 22:56:13.272	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.122.50.39 blocked.
+2024-09-29 22:56:13.272	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.122.61.72 blocked.
+2024-09-29 22:56:13.273	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.16.242 blocked.
+2024-09-29 22:56:13.273	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.16.244 blocked.
+2024-09-29 22:56:13.273	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.19.30 blocked.
+2024-09-29 22:56:13.273	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.24.146 blocked.
+2024-09-29 22:56:13.274	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.31.107 blocked.
+2024-09-29 22:56:13.274	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.31.128 blocked.
+2024-09-29 22:56:13.274	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.31.191 blocked.
+2024-09-29 22:56:13.274	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.31.237 blocked.
+2024-09-29 22:56:13.275	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.98.94 blocked.
+2024-09-29 22:56:13.275	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.105 blocked.
+2024-09-29 22:56:13.275	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.113 blocked.
+2024-09-29 22:56:13.276	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.114 blocked.
+2024-09-29 22:56:13.276	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.127 blocked.
+2024-09-29 22:56:13.276	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.146 blocked.
+2024-09-29 22:56:13.276	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.148 blocked.
+2024-09-29 22:56:13.277	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.158 blocked.
+2024-09-29 22:56:13.277	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.164 blocked.
+2024-09-29 22:56:13.277	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.167 blocked.
+2024-09-29 22:56:13.278	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.178 blocked.
+2024-09-29 22:56:13.278	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.184 blocked.
+2024-09-29 22:56:13.278	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.187 blocked.
+2024-09-29 22:56:13.278	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.188 blocked.
+2024-09-29 22:56:13.279	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.193 blocked.
+2024-09-29 22:56:13.279	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.198 blocked.
+2024-09-29 22:56:13.279	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.200 blocked.
+2024-09-29 22:56:13.279	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.201 blocked.
+2024-09-29 22:56:13.280	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.204 blocked.
+2024-09-29 22:56:13.280	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.208 blocked.
+2024-09-29 22:56:13.280	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.255 blocked.
+2024-09-29 22:56:13.280	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.63 blocked.
+2024-09-29 22:56:13.281	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.88 blocked.
+2024-09-29 22:56:13.281	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.95 blocked.
+2024-09-29 22:56:13.281	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.98 blocked.
+2024-09-29 22:56:13.281	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.87.18 blocked.
+2024-09-29 22:56:13.282	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.87.25 blocked.
+2024-09-29 22:56:13.282	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.191.218 blocked.
+2024-09-29 22:56:13.282	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.191.237 blocked.
+2024-09-29 22:56:13.282	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.191.244 blocked.
+2024-09-29 22:56:13.283	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.191.51 blocked.
+2024-09-29 22:56:13.283	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.104 blocked.
+2024-09-29 22:56:13.283	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.130 blocked.
+2024-09-29 22:56:13.283	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.138 blocked.
+2024-09-29 22:56:13.284	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.148 blocked.
+2024-09-29 22:56:13.284	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.163 blocked.
+2024-09-29 22:56:13.284	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.68.161.191 blocked.
+2024-09-29 22:56:13.284	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.68.168.34 blocked.
+2024-09-29 22:56:13.285	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 139.59.116.122 blocked.
+2024-09-29 22:56:13.285	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 139.59.183.149 blocked.
+2024-09-29 22:56:13.285	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 142.93.48.86 blocked.
+2024-09-29 22:56:13.286	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.110.255.50 blocked.
+2024-09-29 22:56:13.286	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.172 blocked.
+2024-09-29 22:56:13.286	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.174 blocked.
+2024-09-29 22:56:13.286	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.177 blocked.
+2024-09-29 22:56:13.287	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.182 blocked.
+2024-09-29 22:56:13.287	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.183 blocked.
+2024-09-29 22:56:13.287	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.184 blocked.
+2024-09-29 22:56:13.287	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.185 blocked.
+2024-09-29 22:56:13.288	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.186 blocked.
+2024-09-29 22:56:13.288	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.187 blocked.
+2024-09-29 22:56:13.288	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.189 blocked.
+2024-09-29 22:56:13.288	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.163.97 blocked.
+2024-09-29 22:56:13.289	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 147.182.160.251 blocked.
+2024-09-29 22:56:13.289	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.193.97 blocked.
+2024-09-29 22:56:13.289	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.51.61 blocked.
+2024-09-29 22:56:13.289	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.62.247 blocked.
+2024-09-29 22:56:13.290	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.62.99 blocked.
+2024-09-29 22:56:13.290	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.63.120 blocked.
+2024-09-29 22:56:13.290	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.77.11 blocked.
+2024-09-29 22:56:13.290	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 159.65.28.120 blocked.
+2024-09-29 22:56:13.291	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 159.65.28.9 blocked.
+2024-09-29 22:56:13.291	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 159.65.82.164 blocked.
+2024-09-29 22:56:13.291	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 161.35.59.213 blocked.
+2024-09-29 22:56:13.291	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 161.35.88.140 blocked.
+2024-09-29 22:56:13.292	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 161.35.90.212 blocked.
+2024-09-29 22:56:13.292	[P2P8]	INFO	global	src/p2p/net_node.inl:370	Subnet 162.218.65.0/24 blocked.
+2024-09-29 22:56:13.292	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.10.49 blocked.
+2024-09-29 22:56:13.292	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.10.5 blocked.
+2024-09-29 22:56:13.293	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.12.133 blocked.
+2024-09-29 22:56:13.293	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.15.144 blocked.
+2024-09-29 22:56:13.293	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.2.129 blocked.
+2024-09-29 22:56:13.293	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.2.201 blocked.
+2024-09-29 22:56:13.294	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.2.255 blocked.
+2024-09-29 22:56:13.294	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.2.48 blocked.
+2024-09-29 22:56:13.294	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.8.167 blocked.
+2024-09-29 22:56:13.295	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.177.22 blocked.
+2024-09-29 22:56:13.295	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.180.169 blocked.
+2024-09-29 22:56:13.295	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.181.14 blocked.
+2024-09-29 22:56:13.295	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.181.42 blocked.
+2024-09-29 22:56:13.296	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.185.205 blocked.
+2024-09-29 22:56:13.296	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.190.122 blocked.
+2024-09-29 22:56:13.296	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.190.183 blocked.
+2024-09-29 22:56:13.296	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.190.251 blocked.
+2024-09-29 22:56:13.297	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.71.178 blocked.
+2024-09-29 22:56:13.297	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.72.198 blocked.
+2024-09-29 22:56:13.297	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.82.181 blocked.
+2024-09-29 22:56:13.297	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.82.200 blocked.
+2024-09-29 22:56:13.298	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.82.213 blocked.
+2024-09-29 22:56:13.298	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.90.178 blocked.
+2024-09-29 22:56:13.298	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.90.70 blocked.
+2024-09-29 22:56:13.298	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.94.47 blocked.
+2024-09-29 22:56:13.299	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.71.220.59 blocked.
+2024-09-29 22:56:13.299	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.99.33.107 blocked.
+2024-09-29 22:56:13.299	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 174.138.10.123 blocked.
+2024-09-29 22:56:13.299	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 174.138.3.164 blocked.
+2024-09-29 22:56:13.300	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 174.138.45.150 blocked.
+2024-09-29 22:56:13.300	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 178.128.216.2 blocked.
+2024-09-29 22:56:13.300	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 178.62.209.127 blocked.
+2024-09-29 22:56:13.301	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 178.62.25.68 blocked.
+2024-09-29 22:56:13.301	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 178.62.9.149 blocked.
+2024-09-29 22:56:13.301	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.103.192 blocked.
+2024-09-29 22:56:13.301	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.112.13 blocked.
+2024-09-29 22:56:13.302	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.116.64 blocked.
+2024-09-29 22:56:13.302	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.186.6 blocked.
+2024-09-29 22:56:13.302	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.240.25 blocked.
+2024-09-29 22:56:13.302	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.36.103 blocked.
+2024-09-29 22:56:13.303	[P2P8]	INFO	global	src/p2p/net_node.inl:370	Subnet 199.116.84.0/24 blocked.
+2024-09-29 22:56:13.303	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 206.189.9.131 blocked.
+2024-09-29 22:56:13.303	[P2P8]	INFO	global	src/p2p/net_node.inl:370	Subnet 209.222.252.0/24 blocked.
+2024-09-29 22:56:13.303	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 209.97.135.247 blocked.
+2024-09-29 22:56:13.304	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 209.97.185.45 blocked.
+2024-09-29 22:56:13.304	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.113.138 blocked.
+2024-09-29 22:56:13.304	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.118.41 blocked.
+2024-09-29 22:56:13.304	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.119.226 blocked.
+2024-09-29 22:56:13.305	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.120.188 blocked.
+2024-09-29 22:56:13.305	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.121.112 blocked.
+2024-09-29 22:56:13.305	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.122.101 blocked.
+2024-09-29 22:56:13.305	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.122.248 blocked.
+2024-09-29 22:56:13.306	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.123.202 blocked.
+2024-09-29 22:56:13.306	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.123.242 blocked.
+2024-09-29 22:56:13.306	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.126 blocked.
+2024-09-29 22:56:13.306	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.135 blocked.
+2024-09-29 22:56:13.307	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.161 blocked.
+2024-09-29 22:56:13.307	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.171 blocked.
+2024-09-29 22:56:13.307	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.173 blocked.
+2024-09-29 22:56:13.307	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.246 blocked.
+2024-09-29 22:56:13.308	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.94 blocked.
+2024-09-29 22:56:13.308	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.125.242 blocked.
+2024-09-29 22:56:13.308	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.125.254 blocked.
+2024-09-29 22:56:13.309	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.125.49 blocked.
+2024-09-29 22:56:13.309	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.125.83 blocked.
+2024-09-29 22:56:13.309	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.104 blocked.
+2024-09-29 22:56:13.309	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.19 blocked.
+2024-09-29 22:56:13.310	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.25 blocked.
+2024-09-29 22:56:13.310	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.26 blocked.
+2024-09-29 22:56:13.310	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.42 blocked.
+2024-09-29 22:56:13.310	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.34.81 blocked.
+2024-09-29 22:56:13.311	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.34.86 blocked.
+2024-09-29 22:56:13.311	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.35.29 blocked.
+2024-09-29 22:56:13.311	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.36.64 blocked.
+2024-09-29 22:56:13.311	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.37.110 blocked.
+2024-09-29 22:56:13.312	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.38.196 blocked.
+2024-09-29 22:56:13.312	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.39.157 blocked.
+2024-09-29 22:56:13.312	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.40.186 blocked.
+2024-09-29 22:56:13.312	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.40.60 blocked.
+2024-09-29 22:56:13.313	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.41.0 blocked.
+2024-09-29 22:56:13.313	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.41.111 blocked.
+2024-09-29 22:56:13.313	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.42.188 blocked.
+2024-09-29 22:56:13.313	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.43.143 blocked.
+2024-09-29 22:56:13.314	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.10.221 blocked.
+2024-09-29 22:56:13.314	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.109.154 blocked.
+2024-09-29 22:56:13.314	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.221.137 blocked.
+2024-09-29 22:56:13.315	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.221.3 blocked.
+2024-09-29 22:56:13.315	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.221.73 blocked.
+2024-09-29 22:56:13.315	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.222 blocked.
+2024-09-29 22:56:13.315	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.223 blocked.
+2024-09-29 22:56:13.316	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.224 blocked.
+2024-09-29 22:56:13.316	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.225 blocked.
+2024-09-29 22:56:13.316	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.226 blocked.
+2024-09-29 22:56:13.316	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.227 blocked.
+2024-09-29 22:56:13.317	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.228 blocked.
+2024-09-29 22:56:13.317	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.229 blocked.
+2024-09-29 22:56:13.317	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.230 blocked.
+2024-09-29 22:56:13.317	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.231 blocked.
+2024-09-29 22:56:13.318	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.10 blocked.
+2024-09-29 22:56:13.318	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.11 blocked.
+2024-09-29 22:56:13.318	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.12 blocked.
+2024-09-29 22:56:13.318	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.120 blocked.
+2024-09-29 22:56:13.319	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.122 blocked.
+2024-09-29 22:56:13.319	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.123 blocked.
+2024-09-29 22:56:13.319	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.124 blocked.
+2024-09-29 22:56:13.319	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.125 blocked.
+2024-09-29 22:56:13.320	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.126 blocked.
+2024-09-29 22:56:13.320	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.127 blocked.
+2024-09-29 22:56:13.320	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.128 blocked.
+2024-09-29 22:56:13.320	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.129 blocked.
+2024-09-29 22:56:13.321	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.13 blocked.
+2024-09-29 22:56:13.321	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.130 blocked.
+2024-09-29 22:56:13.321	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.131 blocked.
+2024-09-29 22:56:13.321	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.132 blocked.
+2024-09-29 22:56:13.322	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.133 blocked.
+2024-09-29 22:56:13.322	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.14 blocked.
+2024-09-29 22:56:13.322	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.5 blocked.
+2024-09-29 22:56:13.322	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.6 blocked.
+2024-09-29 22:56:13.323	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.7 blocked.
+2024-09-29 22:56:13.323	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.8 blocked.
+2024-09-29 22:56:13.323	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.9 blocked.
+2024-09-29 22:56:13.324	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.116 blocked.
+2024-09-29 22:56:13.324	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.155 blocked.
+2024-09-29 22:56:13.324	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.156 blocked.
+2024-09-29 22:56:13.324	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.157 blocked.
+2024-09-29 22:56:13.325	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.158 blocked.
+2024-09-29 22:56:13.325	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.159 blocked.
+2024-09-29 22:56:13.325	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.160 blocked.
+2024-09-29 22:56:13.325	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.161 blocked.
+2024-09-29 22:56:13.326	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.162 blocked.
+2024-09-29 22:56:13.326	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.163 blocked.
+2024-09-29 22:56:13.326	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.164 blocked.
+2024-09-29 22:56:13.326	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.165 blocked.
+2024-09-29 22:56:13.327	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.166 blocked.
+2024-09-29 22:56:13.327	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.167 blocked.
+2024-09-29 22:56:13.327	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.168 blocked.
+2024-09-29 22:56:13.328	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.169 blocked.
+2024-09-29 22:56:13.328	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.170 blocked.
+2024-09-29 22:56:13.328	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.171 blocked.
+2024-09-29 22:56:13.328	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.172 blocked.
+2024-09-29 22:56:13.329	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.173 blocked.
+2024-09-29 22:56:13.329	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.174 blocked.
+2024-09-29 22:56:13.329	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.175 blocked.
+2024-09-29 22:56:13.329	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.176 blocked.
+2024-09-29 22:56:13.330	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.177 blocked.
+2024-09-29 22:56:13.330	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.178 blocked.
+2024-09-29 22:56:13.330	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.179 blocked.
+2024-09-29 22:56:13.330	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.180 blocked.
+2024-09-29 22:56:13.331	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.181 blocked.
+2024-09-29 22:56:13.331	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.182 blocked.
+2024-09-29 22:56:13.331	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.183 blocked.
+2024-09-29 22:56:13.331	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.184 blocked.
+2024-09-29 22:56:13.332	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.185 blocked.
+2024-09-29 22:56:13.332	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.186 blocked.
+2024-09-29 22:56:13.332	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 64.225.66.253 blocked.
+2024-09-29 22:56:13.332	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 64.225.70.236 blocked.
+2024-09-29 22:56:13.333	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 64.227.64.156 blocked.
+2024-09-29 22:56:13.333	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 64.227.66.185 blocked.
+2024-09-29 22:56:13.333	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.48.41 blocked.
+2024-09-29 22:56:13.333	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.49.24 blocked.
+2024-09-29 22:56:13.334	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.49.82 blocked.
+2024-09-29 22:56:13.334	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.50.7 blocked.
+2024-09-29 22:56:13.334	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.51.229 blocked.
+2024-09-29 22:56:13.334	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.56.225 blocked.
+2024-09-29 22:56:13.335	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.58.135 blocked.
+2024-09-29 22:56:13.335	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.60.175 blocked.
+2024-09-29 22:56:13.335	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.61.145 blocked.
+2024-09-29 22:56:13.336	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.80.101 blocked.
+2024-09-29 22:56:13.336	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.80.216 blocked.
+2024-09-29 22:56:13.336	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.81.118 blocked.
+2024-09-29 22:56:13.336	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.81.124 blocked.
+2024-09-29 22:56:13.337	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.81.125 blocked.
+2024-09-29 22:56:13.337	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.83.46 blocked.
+2024-09-29 22:56:13.337	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.85.204 blocked.
+2024-09-29 22:56:13.337	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.90.194 blocked.
+2024-09-29 22:56:13.338	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.90.196 blocked.
+2024-09-29 22:56:13.338	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.93.105 blocked.
+2024-09-29 22:56:13.338	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.93.131 blocked.
+2024-09-29 22:56:13.338	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.93.73 blocked.
+2024-09-29 22:56:13.339	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.21.186.59 blocked.
+2024-09-29 22:56:13.339	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.111.36 blocked.
+2024-09-29 22:56:13.339	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.16.126 blocked.
+2024-09-29 22:56:13.340	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.96.163 blocked.
+2024-09-29 22:56:13.340	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.96.21 blocked.
+2024-09-29 22:56:13.340	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.96.59 blocked.
+2024-09-29 22:56:13.340	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.142.161 blocked.
+2024-09-29 22:56:13.341	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.147.229 blocked.
+2024-09-29 22:56:13.341	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.172.253 blocked.
+2024-09-29 22:56:13.341	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.182.24 blocked.
+2024-09-29 22:56:13.341	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.186.96 blocked.
+2024-09-29 22:56:13.342	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.188.228 blocked.
+2024-09-29 22:56:13.342	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.188.82 blocked.
+2024-09-29 22:56:13.342	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.189.158 blocked.
+2024-09-29 22:56:13.342	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.189.74 blocked.
+2024-09-29 22:56:13.343	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.190.238 blocked.
+2024-09-29 22:56:13.343	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.191.8 blocked.
+2024-09-29 22:56:13.343	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.192.174 blocked.
+2024-09-29 22:56:13.343	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.192.204 blocked.
+2024-09-29 22:56:13.344	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.47.43.59 blocked.
+2024-09-29 22:56:13.344	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.47.45.21 blocked.
+2024-09-29 22:56:13.344	[P2P8]	INFO	global	src/p2p/net_node.inl:370	Subnet 91.198.115.0/24 blocked.
+2024-09-29 22:56:13.344	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.136.170 blocked.
+2024-09-29 22:56:13.345	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.138.15 blocked.
+2024-09-29 22:56:13.345	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.139.114 blocked.
+2024-09-29 22:56:13.345	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.139.44 blocked.
+2024-09-29 22:56:13.345	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.140.48 blocked.
+2024-09-29 22:56:13.346	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.187.176 blocked.
+2024-09-29 22:56:13.346	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.202 blocked.
+2024-09-29 22:56:13.346	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.35 blocked.
+2024-09-29 22:56:13.346	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.86 blocked.
+2024-09-29 22:56:13.347	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.87 blocked.
+2024-09-29 22:56:13.347	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.98 blocked.
+2024-09-29 22:56:13.347	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.190.212 blocked.
+2024-09-29 22:56:13.347	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.199.160 blocked.
+2024-09-29 22:56:13.348	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.199.217 blocked.
+2024-09-29 22:56:13.348	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.200.97 blocked.
+2024-09-29 22:56:13.348	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.201.10 blocked.
+2024-09-29 22:56:13.348	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.202.32 blocked.
+2024-09-29 22:56:13.349	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.203.255 blocked.
+2024-09-29 23:00:36.714	19052	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-29 23:00:36.714	19052	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-29 23:00:37.444	[SRV_MAIN]	INFO	global	src/daemon/p2p.h:81	p2p net loop stopped
+2024-09-29 23:00:37.444	19052	INFO	msgwriter	src/common/scoped_message_writer.h:102	Stop signal sent
+2024-09-29 23:00:37.445	[SRV_MAIN]	INFO	global	src/daemon/rpc.h:84	Stopping core RPC server...
+2024-09-29 23:00:37.445	[SRV_MAIN]	INFO	global	src/daemon/daemon.cpp:228	Node stopped.
+2024-09-29 23:00:37.538	[SRV_MAIN]	INFO	global	src/daemon/rpc.h:96	Deinitializing core RPC server...
+2024-09-29 23:00:37.738	[SRV_MAIN]	INFO	global	src/daemon/p2p.h:91	Deinitializing p2p...
+2024-09-29 23:00:37.892	[SRV_MAIN]	INFO	global	src/daemon/core.h:102	Deinitializing core...
+2024-09-29 23:00:37.901	[SRV_MAIN]	INFO	global	src/daemon/protocol.h:75	Stopping cryptonote protocol...
+2024-09-29 23:00:37.901	[SRV_MAIN]	INFO	global	src/daemon/protocol.h:79	Cryptonote protocol stopped successfully
+2024-09-29 23:00:39.573	18108	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-29 23:00:39.573	18108	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-29 23:00:41.974	18108	ERROR	msgwriter	src/common/scoped_message_writer.h:102	Error: Couldn't connect to daemon: 127.0.0.1:18081
+2024-09-30 01:04:04.455	9560	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-30 01:04:04.456	9560	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-30 01:04:05.861	8184	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-30 01:04:05.861	8184	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-30 01:04:08.023	9560	ERROR	msgwriter	src/common/scoped_message_writer.h:102	Error: Couldn't connect to daemon: 127.0.0.1:18081
+2024-09-30 01:04:08.588	8184	ERROR	msgwriter	src/common/scoped_message_writer.h:102	Error: Couldn't connect to daemon: 127.0.0.1:18081
+2024-09-30 01:04:10.175	20524	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-30 01:04:10.176	20524	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-30 01:04:10.724	20592	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-30 01:04:10.724	20592	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-30 01:04:12.568	20524	ERROR	msgwriter	src/common/scoped_message_writer.h:102	Error: Couldn't connect to daemon: 127.0.0.1:18081
+2024-09-30 01:04:13.899	20592	ERROR	msgwriter	src/common/scoped_message_writer.h:102	Error: Couldn't connect to daemon: 127.0.0.1:18081
+2024-09-30 01:04:34.057	21276	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-30 01:04:34.057	21276	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-30 01:04:34.059	21276	INFO	global	src/daemon/protocol.h:53	Initializing cryptonote protocol...
+2024-09-30 01:04:34.059	21276	INFO	global	src/daemon/protocol.h:58	Cryptonote protocol initialized OK
+2024-09-30 01:04:34.061	21276	INFO	global	src/daemon/core.h:64	Initializing core...
+2024-09-30 01:04:34.062	21276	INFO	global	src/cryptonote_core/cryptonote_core.cpp:523	Loading blockchain from folder F:\bitmonero\lmdb ...
+2024-09-30 01:04:34.108	21276	INFO	global	src/cryptonote_core/cryptonote_core.cpp:698	Loading checkpoints
+2024-09-30 01:04:34.109	21276	INFO	global	src/daemon/core.h:81	Core initialized OK
+2024-09-30 01:04:34.109	21276	INFO	global	src/daemon/p2p.h:64	Initializing p2p server...
+2024-09-30 01:04:34.120	21276	INFO	global	src/daemon/p2p.h:69	p2p server initialized OK
+2024-09-30 01:04:34.121	21276	INFO	global	src/daemon/rpc.h:63	Initializing core RPC server...
+2024-09-30 01:04:34.123	21276	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):18081
+2024-09-30 01:04:34.135	21276	INFO	global	src/daemon/rpc.h:69	core RPC server initialized OK on port: 18081
+2024-09-30 01:04:34.155	21276	INFO	global	src/daemon/rpc.h:74	Starting core RPC server...
+2024-09-30 01:04:34.156	[SRV_MAIN]	INFO	global	src/daemon/rpc.h:79	core RPC server started ok
+2024-09-30 01:04:34.156	[SRV_MAIN]	INFO	global	src/daemon/p2p.h:79	Starting p2p net loop...
+2024-09-30 01:04:35.160	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	
+2024-09-30 01:04:35.160	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	**********************************************************************
+2024-09-30 01:04:35.161	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	The daemon will start synchronizing with the network. This may take a long time to complete.
+2024-09-30 01:04:35.161	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	
+2024-09-30 01:04:35.161	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	You can set the level of process detailization through "set_log <level|categories>" command,
+2024-09-30 01:04:35.161	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	where <level> is between 0 (no details) and 4 (very verbose), or custom category based levels (eg, *:WARNING).
+2024-09-30 01:04:35.161	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	
+2024-09-30 01:04:35.161	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	Use the "help" command to see the list of available commands.
+2024-09-30 01:04:35.162	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	Use "help <command>" to see a command's documentation.
+2024-09-30 01:04:35.162	[P2P7]	INFO	global	src/cryptonote_core/cryptonote_core.cpp:1826	**********************************************************************
+2024-09-30 01:04:35.496	[P2P7]	INFO	global	src/cryptonote_protocol/cryptonote_protocol_handler.inl:409	[72.199.170.177:18080 OUT] Sync data returned a new top block candidate: 1 -> 3248470 [Your node is 3248469 blocks (10.4 years) behind] 
+2024-09-30 01:04:35.496	[P2P7]	INFO	global	src/cryptonote_protocol/cryptonote_protocol_handler.inl:409	SYNCHRONIZATION started
+2024-09-30 01:04:36.057	21436	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-30 01:04:36.057	21436	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-30 01:04:36.798	21436	INFO	msgwriter	src/common/scoped_message_writer.h:102	Height: 1, target: 3248470 (3.07837e-005%)
+2024-09-30 01:04:36.798	21436	INFO	msgwriter	src/common/scoped_message_writer.h:102	Downloading at 4 kB/s
+2024-09-30 01:04:36.798	21436	INFO	msgwriter	src/common/scoped_message_writer.h:102	Next needed pruning seed: 2
+2024-09-30 01:04:36.798	21436	INFO	msgwriter	src/common/scoped_message_writer.h:102	4 peers
+2024-09-30 01:04:36.798	21436	INFO	msgwriter	src/common/scoped_message_writer.h:102	Remote Host                        Peer_ID   State   Prune_Seed          Height  DL kB/s, Queued Blocks / MB
+2024-09-30 01:04:36.798	21436	INFO	msgwriter	src/common/scoped_message_writer.h:102	51.68.200.139:18080       f59fd30208d90c34  normal            0         3248470  1 kB/s, 0 blocks / 0 MB queued
+2024-09-30 01:04:36.798	21436	INFO	msgwriter	src/common/scoped_message_writer.h:102	65.21.75.166:18080        04f827adea745d52  normal            0         3248470  1 kB/s, 0 blocks / 0 MB queued
+2024-09-30 01:04:36.798	21436	INFO	msgwriter	src/common/scoped_message_writer.h:102	95.208.33.213:18080       4e9b21080ee945b4  normal            0         3248470  1 kB/s, 0 blocks / 0 MB queued
+2024-09-30 01:04:36.798	21436	INFO	msgwriter	src/common/scoped_message_writer.h:102	72.199.170.177:18080      86b8b0aa0bd6a351  normal            0         3248470  1 kB/s, 0 blocks / 0 MB queued
+2024-09-30 01:04:36.798	21436	INFO	msgwriter	src/common/scoped_message_writer.h:102	0 spans, 0 MB
+2024-09-30 01:04:36.798	21436	INFO	msgwriter	src/common/scoped_message_writer.h:102	[]
+2024-09-30 01:04:45.095	20568	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-30 01:04:45.095	20568	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-30 01:04:45.740	20568	INFO	msgwriter	src/common/scoped_message_writer.h:102	Stop signal sent
+2024-09-30 01:04:47.145	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 104.248.206.131 blocked.
+2024-09-30 01:04:47.146	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 104.248.231.61 blocked.
+2024-09-30 01:04:47.147	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 116.203.249.163 blocked.
+2024-09-30 01:04:47.148	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 128.199.45.242 blocked.
+2024-09-30 01:04:47.149	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.122.50.39 blocked.
+2024-09-30 01:04:47.150	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.122.61.72 blocked.
+2024-09-30 01:04:47.151	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.16.242 blocked.
+2024-09-30 01:04:47.153	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.16.244 blocked.
+2024-09-30 01:04:47.154	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.19.30 blocked.
+2024-09-30 01:04:47.156	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.24.146 blocked.
+2024-09-30 01:04:47.158	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.31.107 blocked.
+2024-09-30 01:04:47.159	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.31.128 blocked.
+2024-09-30 01:04:47.160	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.31.191 blocked.
+2024-09-30 01:04:47.161	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.31.237 blocked.
+2024-09-30 01:04:47.162	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 134.209.98.94 blocked.
+2024-09-30 01:04:47.163	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.105 blocked.
+2024-09-30 01:04:47.164	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.113 blocked.
+2024-09-30 01:04:47.164	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.114 blocked.
+2024-09-30 01:04:47.165	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.127 blocked.
+2024-09-30 01:04:47.165	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.146 blocked.
+2024-09-30 01:04:47.166	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.148 blocked.
+2024-09-30 01:04:47.167	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.158 blocked.
+2024-09-30 01:04:47.168	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.164 blocked.
+2024-09-30 01:04:47.169	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.167 blocked.
+2024-09-30 01:04:47.170	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.178 blocked.
+2024-09-30 01:04:47.170	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.184 blocked.
+2024-09-30 01:04:47.172	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.187 blocked.
+2024-09-30 01:04:47.173	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.188 blocked.
+2024-09-30 01:04:47.174	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.193 blocked.
+2024-09-30 01:04:47.174	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.198 blocked.
+2024-09-30 01:04:47.174	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.200 blocked.
+2024-09-30 01:04:47.175	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.201 blocked.
+2024-09-30 01:04:47.175	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.204 blocked.
+2024-09-30 01:04:47.175	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.208 blocked.
+2024-09-30 01:04:47.176	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.255 blocked.
+2024-09-30 01:04:47.177	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.63 blocked.
+2024-09-30 01:04:47.178	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.88 blocked.
+2024-09-30 01:04:47.178	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.95 blocked.
+2024-09-30 01:04:47.179	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.86.98 blocked.
+2024-09-30 01:04:47.179	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.87.18 blocked.
+2024-09-30 01:04:47.179	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 135.181.87.25 blocked.
+2024-09-30 01:04:47.179	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.191.218 blocked.
+2024-09-30 01:04:47.180	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.191.237 blocked.
+2024-09-30 01:04:47.181	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.191.244 blocked.
+2024-09-30 01:04:47.181	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.191.51 blocked.
+2024-09-30 01:04:47.182	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.104 blocked.
+2024-09-30 01:04:47.182	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.130 blocked.
+2024-09-30 01:04:47.182	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.138 blocked.
+2024-09-30 01:04:47.183	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.148 blocked.
+2024-09-30 01:04:47.183	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.201.244.163 blocked.
+2024-09-30 01:04:47.183	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.68.161.191 blocked.
+2024-09-30 01:04:47.184	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 138.68.168.34 blocked.
+2024-09-30 01:04:47.184	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 139.59.116.122 blocked.
+2024-09-30 01:04:47.185	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 139.59.183.149 blocked.
+2024-09-30 01:04:47.185	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 142.93.48.86 blocked.
+2024-09-30 01:04:47.186	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.110.255.50 blocked.
+2024-09-30 01:04:47.186	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.172 blocked.
+2024-09-30 01:04:47.186	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.174 blocked.
+2024-09-30 01:04:47.187	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.177 blocked.
+2024-09-30 01:04:47.187	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.182 blocked.
+2024-09-30 01:04:47.187	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.183 blocked.
+2024-09-30 01:04:47.188	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.184 blocked.
+2024-09-30 01:04:47.188	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.185 blocked.
+2024-09-30 01:04:47.189	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.186 blocked.
+2024-09-30 01:04:47.190	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.187 blocked.
+2024-09-30 01:04:47.190	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.143.189 blocked.
+2024-09-30 01:04:47.190	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 143.244.163.97 blocked.
+2024-09-30 01:04:47.191	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 147.182.160.251 blocked.
+2024-09-30 01:04:47.191	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.193.97 blocked.
+2024-09-30 01:04:47.191	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.51.61 blocked.
+2024-09-30 01:04:47.192	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.62.247 blocked.
+2024-09-30 01:04:47.192	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.62.99 blocked.
+2024-09-30 01:04:47.193	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.63.120 blocked.
+2024-09-30 01:04:47.193	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 157.245.77.11 blocked.
+2024-09-30 01:04:47.194	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 159.65.28.120 blocked.
+2024-09-30 01:04:47.194	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 159.65.28.9 blocked.
+2024-09-30 01:04:47.195	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 159.65.82.164 blocked.
+2024-09-30 01:04:47.195	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 161.35.59.213 blocked.
+2024-09-30 01:04:47.195	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 161.35.88.140 blocked.
+2024-09-30 01:04:47.196	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 161.35.90.212 blocked.
+2024-09-30 01:04:47.196	[P2P8]	INFO	global	src/p2p/net_node.inl:370	Subnet 162.218.65.0/24 blocked.
+2024-09-30 01:04:47.197	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.10.49 blocked.
+2024-09-30 01:04:47.197	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.10.5 blocked.
+2024-09-30 01:04:47.198	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.12.133 blocked.
+2024-09-30 01:04:47.198	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.15.144 blocked.
+2024-09-30 01:04:47.199	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.2.129 blocked.
+2024-09-30 01:04:47.199	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.2.201 blocked.
+2024-09-30 01:04:47.199	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.2.255 blocked.
+2024-09-30 01:04:47.200	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.2.48 blocked.
+2024-09-30 01:04:47.200	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.22.8.167 blocked.
+2024-09-30 01:04:47.201	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.177.22 blocked.
+2024-09-30 01:04:47.201	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.180.169 blocked.
+2024-09-30 01:04:47.202	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.181.14 blocked.
+2024-09-30 01:04:47.202	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.181.42 blocked.
+2024-09-30 01:04:47.203	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.185.205 blocked.
+2024-09-30 01:04:47.203	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.190.122 blocked.
+2024-09-30 01:04:47.204	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.190.183 blocked.
+2024-09-30 01:04:47.204	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 165.232.190.251 blocked.
+2024-09-30 01:04:47.204	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.71.178 blocked.
+2024-09-30 01:04:47.205	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.72.198 blocked.
+2024-09-30 01:04:47.206	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.82.181 blocked.
+2024-09-30 01:04:47.206	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.82.200 blocked.
+2024-09-30 01:04:47.207	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.82.213 blocked.
+2024-09-30 01:04:47.207	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.90.178 blocked.
+2024-09-30 01:04:47.207	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.90.70 blocked.
+2024-09-30 01:04:47.208	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.172.94.47 blocked.
+2024-09-30 01:04:47.208	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.71.220.59 blocked.
+2024-09-30 01:04:47.208	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 167.99.33.107 blocked.
+2024-09-30 01:04:47.209	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 174.138.10.123 blocked.
+2024-09-30 01:04:47.209	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 174.138.3.164 blocked.
+2024-09-30 01:04:47.210	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 174.138.45.150 blocked.
+2024-09-30 01:04:47.211	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 178.128.216.2 blocked.
+2024-09-30 01:04:47.211	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 178.62.209.127 blocked.
+2024-09-30 01:04:47.211	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 178.62.25.68 blocked.
+2024-09-30 01:04:47.212	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 178.62.9.149 blocked.
+2024-09-30 01:04:47.212	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.103.192 blocked.
+2024-09-30 01:04:47.212	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.112.13 blocked.
+2024-09-30 01:04:47.213	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.116.64 blocked.
+2024-09-30 01:04:47.213	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.186.6 blocked.
+2024-09-30 01:04:47.214	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.240.25 blocked.
+2024-09-30 01:04:47.214	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 188.166.36.103 blocked.
+2024-09-30 01:04:47.215	[P2P8]	INFO	global	src/p2p/net_node.inl:370	Subnet 199.116.84.0/24 blocked.
+2024-09-30 01:04:47.215	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 206.189.9.131 blocked.
+2024-09-30 01:04:47.216	[P2P8]	INFO	global	src/p2p/net_node.inl:370	Subnet 209.222.252.0/24 blocked.
+2024-09-30 01:04:47.216	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 209.97.135.247 blocked.
+2024-09-30 01:04:47.216	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 209.97.185.45 blocked.
+2024-09-30 01:04:47.217	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.113.138 blocked.
+2024-09-30 01:04:47.217	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.118.41 blocked.
+2024-09-30 01:04:47.218	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.119.226 blocked.
+2024-09-30 01:04:47.218	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.120.188 blocked.
+2024-09-30 01:04:47.219	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.121.112 blocked.
+2024-09-30 01:04:47.220	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.122.101 blocked.
+2024-09-30 01:04:47.220	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.122.248 blocked.
+2024-09-30 01:04:47.221	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.123.202 blocked.
+2024-09-30 01:04:47.221	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.123.242 blocked.
+2024-09-30 01:04:47.221	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.126 blocked.
+2024-09-30 01:04:47.222	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.135 blocked.
+2024-09-30 01:04:47.223	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.161 blocked.
+2024-09-30 01:04:47.224	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.171 blocked.
+2024-09-30 01:04:47.224	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.173 blocked.
+2024-09-30 01:04:47.224	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.246 blocked.
+2024-09-30 01:04:47.225	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.124.94 blocked.
+2024-09-30 01:04:47.225	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.125.242 blocked.
+2024-09-30 01:04:47.225	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.125.254 blocked.
+2024-09-30 01:04:47.226	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.125.49 blocked.
+2024-09-30 01:04:47.226	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.125.83 blocked.
+2024-09-30 01:04:47.227	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.104 blocked.
+2024-09-30 01:04:47.227	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.19 blocked.
+2024-09-30 01:04:47.227	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.25 blocked.
+2024-09-30 01:04:47.228	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.26 blocked.
+2024-09-30 01:04:47.228	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.126.42 blocked.
+2024-09-30 01:04:47.228	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.34.81 blocked.
+2024-09-30 01:04:47.229	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.34.86 blocked.
+2024-09-30 01:04:47.229	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.35.29 blocked.
+2024-09-30 01:04:47.229	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.36.64 blocked.
+2024-09-30 01:04:47.230	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.37.110 blocked.
+2024-09-30 01:04:47.230	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.38.196 blocked.
+2024-09-30 01:04:47.230	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.39.157 blocked.
+2024-09-30 01:04:47.231	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.40.186 blocked.
+2024-09-30 01:04:47.231	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.40.60 blocked.
+2024-09-30 01:04:47.232	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.41.0 blocked.
+2024-09-30 01:04:47.232	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.41.111 blocked.
+2024-09-30 01:04:47.232	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.42.188 blocked.
+2024-09-30 01:04:47.233	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 23.88.43.143 blocked.
+2024-09-30 01:04:47.233	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.10.221 blocked.
+2024-09-30 01:04:47.233	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.109.154 blocked.
+2024-09-30 01:04:47.233	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.221.137 blocked.
+2024-09-30 01:04:47.234	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.221.3 blocked.
+2024-09-30 01:04:47.234	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.221.73 blocked.
+2024-09-30 01:04:47.235	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.222 blocked.
+2024-09-30 01:04:47.235	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.223 blocked.
+2024-09-30 01:04:47.236	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.224 blocked.
+2024-09-30 01:04:47.236	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.225 blocked.
+2024-09-30 01:04:47.236	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.226 blocked.
+2024-09-30 01:04:47.236	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.227 blocked.
+2024-09-30 01:04:47.237	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.228 blocked.
+2024-09-30 01:04:47.237	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.229 blocked.
+2024-09-30 01:04:47.237	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.230 blocked.
+2024-09-30 01:04:47.238	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.227.231 blocked.
+2024-09-30 01:04:47.238	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.10 blocked.
+2024-09-30 01:04:47.239	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.11 blocked.
+2024-09-30 01:04:47.239	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.12 blocked.
+2024-09-30 01:04:47.239	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.120 blocked.
+2024-09-30 01:04:47.240	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.122 blocked.
+2024-09-30 01:04:47.240	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.123 blocked.
+2024-09-30 01:04:47.240	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.124 blocked.
+2024-09-30 01:04:47.241	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.125 blocked.
+2024-09-30 01:04:47.241	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.126 blocked.
+2024-09-30 01:04:47.241	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.127 blocked.
+2024-09-30 01:04:47.242	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.128 blocked.
+2024-09-30 01:04:47.242	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.129 blocked.
+2024-09-30 01:04:47.243	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.13 blocked.
+2024-09-30 01:04:47.243	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.130 blocked.
+2024-09-30 01:04:47.244	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.131 blocked.
+2024-09-30 01:04:47.244	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.132 blocked.
+2024-09-30 01:04:47.244	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.133 blocked.
+2024-09-30 01:04:47.245	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.14 blocked.
+2024-09-30 01:04:47.245	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.5 blocked.
+2024-09-30 01:04:47.245	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.6 blocked.
+2024-09-30 01:04:47.245	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.7 blocked.
+2024-09-30 01:04:47.246	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.8 blocked.
+2024-09-30 01:04:47.246	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.228.9 blocked.
+2024-09-30 01:04:47.246	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.116 blocked.
+2024-09-30 01:04:47.247	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.155 blocked.
+2024-09-30 01:04:47.247	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.156 blocked.
+2024-09-30 01:04:47.248	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.157 blocked.
+2024-09-30 01:04:47.248	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.158 blocked.
+2024-09-30 01:04:47.248	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.159 blocked.
+2024-09-30 01:04:47.248	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.160 blocked.
+2024-09-30 01:04:47.249	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.161 blocked.
+2024-09-30 01:04:47.249	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.162 blocked.
+2024-09-30 01:04:47.249	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.163 blocked.
+2024-09-30 01:04:47.250	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.164 blocked.
+2024-09-30 01:04:47.250	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.165 blocked.
+2024-09-30 01:04:47.250	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.166 blocked.
+2024-09-30 01:04:47.251	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.167 blocked.
+2024-09-30 01:04:47.251	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.168 blocked.
+2024-09-30 01:04:47.251	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.169 blocked.
+2024-09-30 01:04:47.252	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.170 blocked.
+2024-09-30 01:04:47.252	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.171 blocked.
+2024-09-30 01:04:47.253	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.172 blocked.
+2024-09-30 01:04:47.253	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.173 blocked.
+2024-09-30 01:04:47.253	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.174 blocked.
+2024-09-30 01:04:47.254	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.175 blocked.
+2024-09-30 01:04:47.254	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.176 blocked.
+2024-09-30 01:04:47.254	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.177 blocked.
+2024-09-30 01:04:47.255	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.178 blocked.
+2024-09-30 01:04:47.255	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.179 blocked.
+2024-09-30 01:04:47.255	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.180 blocked.
+2024-09-30 01:04:47.256	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.181 blocked.
+2024-09-30 01:04:47.256	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.182 blocked.
+2024-09-30 01:04:47.257	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.183 blocked.
+2024-09-30 01:04:47.257	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.184 blocked.
+2024-09-30 01:04:47.257	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.185 blocked.
+2024-09-30 01:04:47.258	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 49.12.239.186 blocked.
+2024-09-30 01:04:47.258	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 64.225.66.253 blocked.
+2024-09-30 01:04:47.258	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 64.225.70.236 blocked.
+2024-09-30 01:04:47.259	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 64.227.64.156 blocked.
+2024-09-30 01:04:47.259	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 64.227.66.185 blocked.
+2024-09-30 01:04:47.259	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.48.41 blocked.
+2024-09-30 01:04:47.260	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.49.24 blocked.
+2024-09-30 01:04:47.260	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.49.82 blocked.
+2024-09-30 01:04:47.260	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.50.7 blocked.
+2024-09-30 01:04:47.261	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.51.229 blocked.
+2024-09-30 01:04:47.261	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.56.225 blocked.
+2024-09-30 01:04:47.261	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.58.135 blocked.
+2024-09-30 01:04:47.262	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.60.175 blocked.
+2024-09-30 01:04:47.262	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.61.145 blocked.
+2024-09-30 01:04:47.262	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.80.101 blocked.
+2024-09-30 01:04:47.263	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.80.216 blocked.
+2024-09-30 01:04:47.263	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.81.118 blocked.
+2024-09-30 01:04:47.263	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.81.124 blocked.
+2024-09-30 01:04:47.264	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.81.125 blocked.
+2024-09-30 01:04:47.264	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.83.46 blocked.
+2024-09-30 01:04:47.265	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.85.204 blocked.
+2024-09-30 01:04:47.265	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.90.194 blocked.
+2024-09-30 01:04:47.265	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.90.196 blocked.
+2024-09-30 01:04:47.266	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.93.105 blocked.
+2024-09-30 01:04:47.266	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.93.131 blocked.
+2024-09-30 01:04:47.266	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.108.93.73 blocked.
+2024-09-30 01:04:47.267	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 65.21.186.59 blocked.
+2024-09-30 01:04:47.267	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.111.36 blocked.
+2024-09-30 01:04:47.267	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.16.126 blocked.
+2024-09-30 01:04:47.268	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.96.163 blocked.
+2024-09-30 01:04:47.268	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.96.21 blocked.
+2024-09-30 01:04:47.269	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 68.183.96.59 blocked.
+2024-09-30 01:04:47.269	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.142.161 blocked.
+2024-09-30 01:04:47.269	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.147.229 blocked.
+2024-09-30 01:04:47.270	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.172.253 blocked.
+2024-09-30 01:04:47.270	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.182.24 blocked.
+2024-09-30 01:04:47.270	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.186.96 blocked.
+2024-09-30 01:04:47.271	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.188.228 blocked.
+2024-09-30 01:04:47.271	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.188.82 blocked.
+2024-09-30 01:04:47.272	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.189.158 blocked.
+2024-09-30 01:04:47.273	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.189.74 blocked.
+2024-09-30 01:04:47.273	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.190.238 blocked.
+2024-09-30 01:04:47.274	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.191.8 blocked.
+2024-09-30 01:04:47.274	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.192.174 blocked.
+2024-09-30 01:04:47.274	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.46.192.204 blocked.
+2024-09-30 01:04:47.275	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.47.43.59 blocked.
+2024-09-30 01:04:47.275	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 78.47.45.21 blocked.
+2024-09-30 01:04:47.275	[P2P8]	INFO	global	src/p2p/net_node.inl:370	Subnet 91.198.115.0/24 blocked.
+2024-09-30 01:04:47.275	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.136.170 blocked.
+2024-09-30 01:04:47.276	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.138.15 blocked.
+2024-09-30 01:04:47.276	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.139.114 blocked.
+2024-09-30 01:04:47.277	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.139.44 blocked.
+2024-09-30 01:04:47.277	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.140.48 blocked.
+2024-09-30 01:04:47.277	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.187.176 blocked.
+2024-09-30 01:04:47.278	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.202 blocked.
+2024-09-30 01:04:47.278	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.35 blocked.
+2024-09-30 01:04:47.278	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.86 blocked.
+2024-09-30 01:04:47.278	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.87 blocked.
+2024-09-30 01:04:47.279	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.189.98 blocked.
+2024-09-30 01:04:47.279	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.190.212 blocked.
+2024-09-30 01:04:47.279	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.199.160 blocked.
+2024-09-30 01:04:47.280	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.199.217 blocked.
+2024-09-30 01:04:47.280	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.200.97 blocked.
+2024-09-30 01:04:47.281	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.201.10 blocked.
+2024-09-30 01:04:47.281	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.202.32 blocked.
+2024-09-30 01:04:47.281	[P2P8]	INFO	global	src/p2p/net_node.inl:307	Host 95.216.203.255 blocked.
+2024-09-30 01:04:47.282	[SRV_MAIN]	INFO	global	src/daemon/p2p.h:81	p2p net loop stopped
+2024-09-30 01:04:47.283	[SRV_MAIN]	INFO	global	src/daemon/rpc.h:84	Stopping core RPC server...
+2024-09-30 01:04:47.879	14848	INFO	logging	contrib/epee/src/mlog.cpp:274	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2024-09-30 01:04:47.880	14848	INFO	global	src/daemon/main.cpp:309	Monero 'Fluorine Fermi' (v0.18.3.4-release)
+2024-09-30 01:04:49.961	[SRV_MAIN]	INFO	global	src/daemon/daemon.cpp:228	Node stopped.
+2024-09-30 01:04:50.043	[SRV_MAIN]	INFO	global	src/daemon/rpc.h:96	Deinitializing core RPC server...
+2024-09-30 01:04:50.182	[SRV_MAIN]	INFO	global	src/daemon/p2p.h:91	Deinitializing p2p...
+2024-09-30 01:04:50.189	[SRV_MAIN]	INFO	global	src/daemon/core.h:102	Deinitializing core...
+2024-09-30 01:04:50.203	[SRV_MAIN]	INFO	global	src/daemon/protocol.h:75	Stopping cryptonote protocol...
+2024-09-30 01:04:50.203	[SRV_MAIN]	INFO	global	src/daemon/protocol.h:79	Cryptonote protocol stopped successfully
+2024-09-30 01:04:52.256	14848	ERROR	msgwriter	src/common/scoped_message_writer.h:102	Error: Couldn't connect to daemon: 127.0.0.1:18081
